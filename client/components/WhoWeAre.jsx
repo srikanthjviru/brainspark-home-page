@@ -1,9 +1,9 @@
 import React from 'react';
-import Hexagon from 'react-hexagon'
+import Hexagon from 'react-hexagon';
 
 import './WhoWeAre.less';
 
-class App extends React.Component {
+class WhoWeAre extends React.Component {
     render() {
         return(
             <section className='section who-we-are'>
@@ -29,4 +29,4 @@ class App extends React.Component {
     }
 }
 
-export default App;
+export default WhoWeAre;
