@@ -58,15 +58,6 @@ module.exports = {
         ]
     },
 
-    // devServer: {
-    //     colors: true,
-    //     historyApiFallback: true,
-    //     inline: false,
-    //     contentBase: __dirname + '/public',
-    //     port: NODE_PORT,
-    //     hot: true
-    // },
-
     plugins: [
         // new webpack.ProvidePlugin({
         //   $: 'jquery',
@@ -76,7 +67,7 @@ module.exports = {
             allChunks: true,
             disable: process.env.NODE_ENV == 'development'
         }),
-        new webpack.HotModuleReplacementPlugin(),
+        // new webpack.HotModuleReplacementPlugin(),
         new webpack.NoErrorsPlugin()
     ]
 };

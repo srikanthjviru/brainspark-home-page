@@ -1,0 +1,57 @@
+.who-we-are {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    &__video {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('../img/who-we-are__video-start-slide.jpg') no-repeat bottom center;
+        background-size: cover;
+    }
+
+    &__body {
+        // position: relative;
+        padding-top: 19em;
+        overflow: hidden;
+    }
+
+    &__header {
+        color: #F5A623;
+        font-size: 4em;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 3em;
+    }
+
+    &__description {
+        margin-top: 4.5em;
+
+        p {
+            width: 85%;
+            font-size: 1.5em;
+            font-weight: 300;
+            line-height: 1.4em;
+            text-align: center;
+            margin: 2em auto;
+
+            &:first-child {
+                width: 62%;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    &__hexagon {
+        position: absolute;
+        z-index: -1;
+        top: 27em;
+        left: -2.5%;
+        width: 105%;
+    }
+}
