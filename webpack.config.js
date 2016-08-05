@@ -1,4 +1,4 @@
-var webpack = require('webpack');
+const webpack = require('webpack');
 
 const NODE_ENV = process.env.NODE_ENV || 'development';
 const NODE_HOST = process.env.NODE_HOST || '0.0.0.0';
@@ -67,9 +67,23 @@ module.exports = {
             allChunks: true,
             disable: process.env.NODE_ENV == 'development'
         }),
-        // new webpack.HotModuleReplacementPlugin(),
+        new webpack.HotModuleReplacementPlugin(),
         new webpack.NoErrorsPlugin()
-    ]
+    ],
+
+    devServer: {
+        host: NODE_HOST,
+        port: NODE_PORT,
+        colors: true,
+        debug: true,
+        hot: true,
+        devtool: true,
+        historyApiFallback: true,
+        "eval-source-map": true,
+        "eval-source-map": true,
+        inline: true,
+        contentBase: __dirname + '/public',
+    },
 };
 
 if (NODE_ENV == 'production') {
