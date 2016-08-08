@@ -6,12 +6,17 @@
     "build": "NODE_ENV=development webpack",
     "watch": "NODE_ENV=development webpack --watch",
     "prod-build": "NODE_ENV=production webpack",
-    "devserver": "webpack-dev-server"
+    "devserver": "webpack-dev-server",
+    "server": "babel-node server/app.js"
   },
   "author": {
     "name": "Brainspark"
   },
   "dependencies": {
+    "axios": "^0.13.1",
+    "body-parser": "^1.15.2",
+    "cors": "^2.7.1",
+    "express": "^4.14.0",
     "json-loader": "^0.5.4",
     "less": "^2.7.1",
     "react": "^0.14.6",

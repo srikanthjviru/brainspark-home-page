@@ -1,0 +1,62 @@
+[
+    {
+        "name": "PHP",
+        "img": "php.svg"
+    },
+    {
+        "name": "MySQL",
+        "img": "mysql.svg"
+    },
+    {
+        "name": "Symfony 2",
+        "img": "symfony2.svg"
+    },
+    {
+        "name": "MongoDB",
+        "img": "mongodb.svg"
+    },
+    {
+        "name": "React JS",
+        "img": "reactjs.svg"
+    },
+    {
+        "name": "Node JS",
+        "img": "nodejs.svg"
+    },
+    {
+        "name": "HTML5",
+        "img": "html5.svg"
+    },
+    {
+        "name": "CSS3",
+        "img": "css3.svg"
+    },
+    {
+        "name": "Javascript",
+        "img": "js.svg"
+    },
+    {
+        "name": "Bootstrap",
+        "img": "bootstrap.svg"
+    },
+    {
+        "name": "Gulp",
+        "img": "gulp.svg"
+    },
+    {
+        "name": "jQuery",
+        "img": "jquery.svg"
+    },
+    {
+        "name": "HTML5 for mobile",
+        "img": "html5mobile.svg"
+    },
+    {
+        "name": "Cordova",
+        "img": "cordova.svg"
+    },
+    {
+        "name": "RabbitMQ",
+        "img": "rabbitmq.svg"
+    }
+]
