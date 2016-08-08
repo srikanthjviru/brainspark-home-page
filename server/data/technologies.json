@@ -1,77 +1,62 @@
 [
     {
-        "php": {
-            "img": "php.svg"
-        }
+        "name": "php",
+        "img": "php.svg"
     },
     {
-        "mysql": {
-            "img": "mysql.svg"
-        }
+        "name": "mysql",
+        "img": "mysql.svg"
     },
     {
-        "symfony2": {
-            "img": "symfony2.svg"
-        }
+        "name": "symfony2",
+        "img": "symfony2.svg"
     },
     {
-        "mongodb": {
-            "img": "mongodb.svg"
-        }
+        "name": "mongodb",
+        "img": "mongodb.svg"
     },
     {
-        "reactjs": {
-            "img": "reactjs.svg"
-        }
+        "name": "reactjs",
+        "img": "reactjs.svg"
     },
     {
-        "nodejs": {
-            "img": "nodejs.svg"
-        }
+        "name": "nodejs",
+        "img": "nodejs.svg"
     },
     {
-        "html5": {
-            "img": "html5.svg"
-        }
+        "name": "html5",
+        "img": "html5.svg"
     },
     {
-        "css3": {
-            "img": "css3.svg"
-        }
+        "name": "css3",
+        "img": "css3.svg"
     },
     {
-        "js": {
-            "img": "js.svg"
-        }
+        "name": "js",
+        "img": "js.svg"
     },
     {
-        "bootstrap": {
-            "img": "bootstrap.svg"
-        }
+        "name": "bootstrap",
+        "img": "bootstrap.svg"
     },
     {
-        "gulp": {
-            "img": "gulp.svg"
-        }
+        "name": "gulp",
+        "img": "gulp.svg"
     },
     {
-        "jquery": {
-            "img": "jquery.svg"
-        }
+        "name": "jquery",
+        "img": "jquery.svg"
     },
     {
-        "html5mobile": {
-            "img": "html5mobile.svg"
-        }
+        "name": "html5mobile",
+        "img": "html5mobile.svg"
     },
     {
-        "cordova": {
-            "img": "cordova.svg"
-        }
+        "name": "cordova",
+        "img": "cordova.svg"
     },
     {
-        "rabbitmq": {
-            "img": "rabbitmq.svg"
-        }
+        "name": "rabbitmq",
+        "img": "rabbitmq.svg"
     }
 ]
