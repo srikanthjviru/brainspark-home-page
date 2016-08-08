@@ -1,62 +1,62 @@
 [
     {
-        "name": "php",
+        "name": "PHP",
         "img": "php.svg"
     },
     {
-        "name": "mysql",
+        "name": "MySQL",
         "img": "mysql.svg"
     },
     {
-        "name": "symfony2",
+        "name": "Symfony 2",
         "img": "symfony2.svg"
     },
     {
-        "name": "mongodb",
+        "name": "MongoDB",
         "img": "mongodb.svg"
     },
     {
-        "name": "reactjs",
+        "name": "React JS",
         "img": "reactjs.svg"
     },
     {
-        "name": "nodejs",
+        "name": "Node JS",
         "img": "nodejs.svg"
     },
     {
-        "name": "html5",
+        "name": "HTML5",
         "img": "html5.svg"
     },
     {
-        "name": "css3",
+        "name": "CSS3",
         "img": "css3.svg"
     },
     {
-        "name": "js",
+        "name": "Javascript",
         "img": "js.svg"
     },
     {
-        "name": "bootstrap",
+        "name": "Bootstrap",
         "img": "bootstrap.svg"
     },
     {
-        "name": "gulp",
+        "name": "Gulp",
         "img": "gulp.svg"
     },
     {
-        "name": "jquery",
+        "name": "jQuery",
         "img": "jquery.svg"
     },
     {
-        "name": "html5mobile",
+        "name": "HTML5 for mobile",
         "img": "html5mobile.svg"
     },
     {
-        "name": "cordova",
+        "name": "Cordova",
         "img": "cordova.svg"
     },
     {
-        "name": "rabbitmq",
+        "name": "RabbitMQ",
         "img": "rabbitmq.svg"
     }
 ]
