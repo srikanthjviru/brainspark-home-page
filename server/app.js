@@ -1,9 +1,9 @@
-import express from 'express';
-import cors from 'cors';
-import bodyParser from 'body-parser';
-import config from '../etc/config.json';
+const express = require('express');
+const cors = require('cors');
+const bodyParser = require('body-parser');
+const config = require('../etc/config.json');
 
-import technologiesData from './data/technologies.json';
+const technologiesData = require('./data/technologies.json');
 
 // Initialization of express application
 const app = express();
