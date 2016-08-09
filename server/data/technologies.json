@@ -1,62 +1,62 @@
 [
     {
         "name": "PHP",
-        "img": "php.svg"
+        "img": "php.png"
     },
     {
         "name": "MySQL",
-        "img": "mysql.svg"
+        "img": "mysql.png"
     },
     {
         "name": "Symfony 2",
-        "img": "symfony2.svg"
+        "img": "symfony2.png"
     },
     {
         "name": "MongoDB",
-        "img": "mongodb.svg"
+        "img": "mongodb.png"
     },
     {
         "name": "React JS",
-        "img": "reactjs.svg"
+        "img": "reactjs.png"
     },
     {
         "name": "Node JS",
-        "img": "nodejs.svg"
+        "img": "nodejs.png"
     },
     {
         "name": "HTML5",
-        "img": "html5.svg"
+        "img": "html5.png"
     },
     {
         "name": "CSS3",
-        "img": "css3.svg"
+        "img": "css3.png"
     },
     {
         "name": "Javascript",
-        "img": "js.svg"
+        "img": "js.png"
     },
     {
         "name": "Bootstrap",
-        "img": "bootstrap.svg"
+        "img": "bootstrap.png"
     },
     {
         "name": "Gulp",
-        "img": "gulp.svg"
+        "img": "gulp.png"
     },
     {
         "name": "jQuery",
-        "img": "jquery.svg"
+        "img": "jquery.png"
     },
     {
         "name": "HTML5 for mobile",
-        "img": "html5mobile.svg"
+        "img": "html5mobile.png"
     },
     {
         "name": "Cordova",
-        "img": "cordova.svg"
+        "img": "cordova.png"
     },
     {
         "name": "RabbitMQ",
-        "img": "rabbitmq.svg"
+        "img": "rabbitmq.png"
     }
 ]
