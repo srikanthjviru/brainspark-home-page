@@ -1,6 +1,5 @@
 import React from 'react';
 import Hexagon from 'react-hexagon';
-import api from '../api';
 
 import './WhoWeAre.less';
 

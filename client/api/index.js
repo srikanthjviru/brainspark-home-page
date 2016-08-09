@@ -1,5 +1,4 @@
 import axios from 'axios';
-
 import { server } from '../../etc/config.json';
 
 export default {
