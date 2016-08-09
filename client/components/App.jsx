@@ -3,6 +3,7 @@ import './App.less';
 
 import WhoWeAre from './WhoWeAre.jsx';
 import WhatWeDo from './WhatWeDo.jsx';
+import Portfolio from './Portfolio.jsx';
 
 class App extends React.Component {
     render() {
@@ -10,6 +11,7 @@ class App extends React.Component {
             <div className='App'>
                 <WhoWeAre />
                 <WhatWeDo />
+                <Portfolio />
             </div>
         )
     }
