@@ -4,6 +4,7 @@ import './App.less';
 import WhoWeAre from './WhoWeAre.jsx';
 import WhatWeDo from './WhatWeDo.jsx';
 import Portfolio from './Portfolio.jsx';
+import Footer from './Footer.jsx';
 
 class App extends React.Component {
     render() {
@@ -12,6 +13,7 @@ class App extends React.Component {
                 <WhoWeAre />
                 <WhatWeDo />
                 <Portfolio />
+                <Footer />
             </div>
         )
     }
