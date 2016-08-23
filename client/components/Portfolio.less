@@ -16,6 +16,7 @@
   &:after {
     content: '';
     position: absolute;
+    z-index: 5;
     top: 1.6em;
     left: 0;
     display: block;
@@ -27,7 +28,9 @@
 
   &__body {
     position: relative;
+    text-align: center;
     height: 100%;
+    padding-top: 2em;
 
     &::before {
       content: '';
@@ -40,6 +43,64 @@
       left: 0;
       background: url('../img/portfolio-polygon.png') top center no-repeat;
       background-size: 100%;
+    }
+  }
+
+  &__filter {
+    position: relative;
+    z-index: 30;
+    margin-top: 1em;
+
+    &-item {
+      display: inline-block;
+      width: 107px;
+      height: 120px;
+      text-align: center;
+      line-height: 120px;
+      cursor: pointer;
+      margin: 0 1.3em;
+      background: url('../img/filter-hexagon.png') no-repeat;
+      background-size: 100%;
+
+      &:before {
+        content: '';
+        display: inline-block;;
+        width: 43px;
+        height: 45px;
+        vertical-align: middle;
+        background: url('../img/filter-icons-spryte.svg') no-repeat;
+      }
+
+      &--desktop {
+        &:hover {
+          &:before {
+            background-position: -62px 0;
+          }
+        }
+      }
+      &--web {
+        &:before {
+          width: 54px;
+          background-position: -122px 0;
+        }
+        &:hover {
+          &:before {
+            background-position: -187px 0;
+          }
+        }
+      }
+      &--mobile {
+        &:before {
+          width: 32px;
+          height: 47px;
+          background-position: -262px 0;
+        }
+        &:hover {
+          &:before {
+            background-position: -300px 0;
+          }
+        }
+      }
     }
   }
 }
