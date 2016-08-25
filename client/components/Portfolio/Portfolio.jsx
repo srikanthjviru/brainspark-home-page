@@ -1,10 +1,15 @@
 import React from 'react';
+import PortfolioGallery from './PortfolioGallery.jsx';
 
 import './Portfolio.less';
 
 class Portfolio extends React.Component {
     static defaultProps = {
         filterItems: ['desktop', 'web', 'mobile']
+    }
+
+    handlerFilter = (e) => {
+        console.log(e.target);
     }
 
     render() {
@@ -20,10 +25,12 @@ class Portfolio extends React.Component {
                                     key={index}
                                     className={`portfolio__filter-item portfolio__filter-item--${item}`}
                                     data-item={item}
+                                    onClick={this.handlerFilter}
                                 />
                             )
                         }
                     </div>
+                    <PortfolioGallery />
                 </div>
             </section>
         )

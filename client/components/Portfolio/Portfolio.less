@@ -1,6 +1,6 @@
 .portfolio {
   position: relative;
-  height: 100em;
+  min-height: 100em;
 
   &:before {
     content: '';
@@ -10,19 +10,18 @@
     display: block;
     width: 52%;
     height: 100%;
-    background: url('../img/portfolio-triangle-left.png') no-repeat top left;
+    background: url('../../img/portfolio-triangle-left.png') no-repeat top left;
     background-size: 100%;
   }
   &:after {
     content: '';
     position: absolute;
-    z-index: 5;
     top: 1.6em;
     left: 0;
     display: block;
     width: 100%;
     height: 100%;
-    background: url('../img/portfolio-triangle-right-bg.png') no-repeat top right;
+    background: url('../../img/portfolio-triangle-right-bg.png') no-repeat top right;
     background-size: cover;
   }
 
@@ -41,7 +40,7 @@
       z-index: -1;
       top: 2em;
       left: 0;
-      background: url('../img/portfolio-polygon.png') top center no-repeat;
+      background: url('../../img/portfolio-polygon.png') top center no-repeat;
       background-size: 100%;
     }
   }
@@ -59,7 +58,7 @@
       line-height: 120px;
       cursor: pointer;
       margin: 0 1.3em;
-      background: url('../img/filter-hexagon.png') no-repeat;
+      background: url('../../img/filter-hexagon.png') no-repeat;
       background-size: 100%;
 
       &:before {
@@ -68,7 +67,7 @@
         width: 43px;
         height: 45px;
         vertical-align: middle;
-        background: url('../img/filter-icons-spryte.svg') no-repeat;
+        background: url('../../img/filter-icons-spryte.svg') no-repeat;
       }
 
       &--desktop {

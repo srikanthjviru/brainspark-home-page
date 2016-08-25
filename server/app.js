@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const config = require('../etc/config.json');
 
 const technologiesData = require('./data/technologies.json');
+const projectsData = require('./data/projects.json');
 
 // Initialization of express application
 const app = express();
@@ -18,6 +19,11 @@ app.use(cors({ origin: '*' }));
 app.get('/technologies', (req, res) => {
     res.json(technologiesData);
 });
+app.get('/projects', (req, res) => {
+    res.json(projectsData);
+});
+
+
 
 
 const server = app.listen(config.server.port, () => {
