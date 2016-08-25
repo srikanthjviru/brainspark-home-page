@@ -10,5 +10,15 @@ export default {
                 .catch((error) => {
                     callback(error);
                 });
+    },
+
+    getProjects(callback) {
+        axios.get(`${server.host}:${server.port}/projects`)
+                .then((res) => {
+                    callback(null, res.data);
+                })
+                .catch((error) => {
+                    callback(error);
+                });
     }
 }
