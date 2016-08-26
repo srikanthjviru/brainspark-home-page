@@ -89,17 +89,35 @@ body {
   display: block;
 
   &--portfolio {
-    display: inline-block;
-    position: relative;
-    z-index: 30;
-    color: #fff;
-    font-size: 2.8em;
-    font-weight: 400;
-    text-align: center;
-    margin: 4em 0;
 
-    &:hover {
-      text-decoration: underline;
+    &-send,
+    &-more {
+      font-size: 2.8em;
+      font-weight: 400;
+      text-align: center;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    &-send {
+      display: inline-block;
+      position: relative;
+      z-index: 30;
+      color: #fff;
+      margin: 4em 0;
+    }
+    &-more {
+      position: absolute;
+      z-index: 40;
+      left: 50%;
+      bottom: 57px;
+      display: block;
+      width: 200px;
+      color: #000;
+      text-align: center;
+      line-height: 1.3em;
+      margin: 0 0 0 -100px;
     }
   }
 }
@@ -107,10 +125,11 @@ body {
 /*** gallery ***/
 .gallery {
 
-
   &--portfolio {
     position: relative;
     z-index: 30;
+    margin-top: 1.2em;
+    transition: .5s all;
 
     .gallery__hexagon {
       position: relative;
@@ -129,9 +148,9 @@ body {
     }
 
     .gallery__row {
+      text-align: left;
 
       &:nth-child(1n) {
-        text-align: left;
 
         span:first-child  {
           .gallery__hexagon {
@@ -141,8 +160,19 @@ body {
       }
 
       &:nth-child(1n+2) {
-        text-align: center;
-        margin-top: -8.3%;
+        margin: -8.3% auto 0 auto;
+      }
+
+      &:nth-child(2n) {
+        width: 66.2%;
+
+        .gallery__hexagon {
+          width: 49.1%;
+        }
+      }
+
+      &:last-child {
+        margin-bottom: 19em;
       }
     }
   }
