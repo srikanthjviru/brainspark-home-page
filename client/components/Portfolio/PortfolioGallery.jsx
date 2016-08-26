@@ -1,22 +1,12 @@
 import React from 'react';
 import Hexagon from 'react-hexagon';
-import api from '../../api';
 
 class PortfolioGallery extends React.Component {
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            projects: []
-        }
-
-        this._getProjects();
-    }
     render() {
         return(
             <div className='gallery gallery--portfolio'>
                 {
-                    this._sortProjects().map((projects, indexOne) =>
+                    this._sortProjects(this.props.viewProjects).map((projects, indexOne) =>
                         <div className="gallery__row" key={indexOne}>
                             {
                                 projects.map((project, indexTwo) =>
@@ -36,7 +26,7 @@ class PortfolioGallery extends React.Component {
         )
     }
 
-    _sortProjects = () => {
+    _sortProjects = (data) => {
         const output = [];
         const galleryCounter = {
             one: 3,
@@ -44,12 +34,12 @@ class PortfolioGallery extends React.Component {
             trigger: false,
             cache: []
         };
-        this.state.projects.forEach((project, index) => {
+        data.forEach((project, index, array) => {
             galleryCounter.cache.push(project);
 
-             if(galleryCounter.one && !galleryCounter.trigger) {
-                 if((galleryCounter.one - 1) === 0) {
-                    output.push(galleryCounter.cache)
+             if(!galleryCounter.trigger) {
+                 if((galleryCounter.one - 1) === 0 || (array.length - index) < 2) {
+                    output.push(galleryCounter.cache);
 
                      galleryCounter.one = 3;
                      galleryCounter.trigger = true;
@@ -57,8 +47,8 @@ class PortfolioGallery extends React.Component {
                  } else {
                      galleryCounter.one--;
                  }
-             } else if(galleryCounter.two && galleryCounter.trigger) {
-                 if((galleryCounter.two - 1) === 0) {
+             } else if(galleryCounter.trigger) {
+                 if((galleryCounter.two - 1) === 0 || (array.length - index) < 2) {
                     output.push(galleryCounter.cache)
 
                      galleryCounter.two = 2;
@@ -71,18 +61,6 @@ class PortfolioGallery extends React.Component {
         })
 
         return output;
-    }
-
-    _getProjects = () => {
-        const that = this;
-
-        api.getProjects((err, data) => {
-            if(err) return console.log(err);
-
-            that.setState({
-                projects: data
-            });
-        })
     }
 }
 
