@@ -4,8 +4,7 @@
     "name": "Champion",
     "description": "project description",
     "tags": [
-      "web",
-      "mobile"
+      "web"
     ],
     "img": [
       "champions-page.jpg"
@@ -17,7 +16,7 @@
     "description": "project description",
     "tags": [
       "web",
-      "mobile"
+      "desktop"
     ],
     "img": [
       "lunch-time-page.jpg"
@@ -28,7 +27,6 @@
     "name": "AOG - Freelance Guide",
     "description": "project description",
     "tags": [
-      "web",
       "mobile"
     ],
     "img": [
@@ -40,8 +38,7 @@
     "name": "AOG - Projects page",
     "description": "project description",
     "tags": [
-      "web",
-      "mobile"
+      "web"
     ],
     "img": [
       "aog-projects-page.jpg"
@@ -52,8 +49,7 @@
     "name": "Money back",
     "description": "project description",
     "tags": [
-      "web",
-      "mobile"
+      "desktop"
     ],
     "img": [
       "win-your-money-page.jpg"
@@ -76,7 +72,6 @@
     "name": "default",
     "description": "project description",
     "tags": [
-      "web",
       "mobile"
     ],
     "img": [
@@ -89,7 +84,7 @@
     "description": "project description",
     "tags": [
       "web",
-      "mobile"
+      "desktop"
     ],
     "img": [
       "default-project-page.jpg"
@@ -100,7 +95,7 @@
     "name": "Minimax",
     "description": "project description",
     "tags": [
-      "web",
+      "desktop",
       "mobile"
     ],
     "img": [
@@ -112,7 +107,6 @@
     "name": "Block application",
     "description": "project description",
     "tags": [
-      "web",
       "mobile"
     ],
     "img": [
@@ -124,7 +118,6 @@
     "name": "Block application",
     "description": "project description",
     "tags": [
-      "web",
       "mobile"
     ],
     "img": [
@@ -136,7 +129,7 @@
     "name": "Block application",
     "description": "project description",
     "tags": [
-      "web",
+      "desktop",
       "mobile"
     ],
     "img": [
@@ -148,8 +141,7 @@
     "name": "Champion",
     "description": "project description",
     "tags": [
-      "web",
-      "mobile"
+      "desktop"
     ],
     "img": [
       "champions-page.jpg"
@@ -160,8 +152,7 @@
     "name": "Lanch Time",
     "description": "project description",
     "tags": [
-      "web",
-      "mobile"
+      "web"
     ],
     "img": [
       "lunch-time-page.jpg"
@@ -172,7 +163,7 @@
     "name": "AOG - Freelance Guide",
     "description": "project description",
     "tags": [
-      "web",
+      "desktop",
       "mobile"
     ],
     "img": [
@@ -185,7 +176,7 @@
     "description": "project description",
     "tags": [
       "web",
-      "mobile"
+      "desktop"
     ],
     "img": [
       "aog-projects-page.jpg"
@@ -196,7 +187,6 @@
     "name": "Money back",
     "description": "project description",
     "tags": [
-      "web",
       "mobile"
     ],
     "img": [
@@ -208,8 +198,7 @@
     "name": "default",
     "description": "project description",
     "tags": [
-      "web",
-      "mobile"
+      "web"
     ],
     "img": [
       "default-project-page.jpg"
@@ -220,8 +209,7 @@
     "name": "default",
     "description": "project description",
     "tags": [
-      "web",
-      "mobile"
+      "desktop"
     ],
     "img": [
       "default-project-page.jpg"
@@ -232,7 +220,7 @@
     "name": "default",
     "description": "project description",
     "tags": [
-      "web",
+      "desktop",
       "mobile"
     ],
     "img": [
@@ -244,7 +232,6 @@
     "name": "Minimax",
     "description": "project description",
     "tags": [
-      "web",
       "mobile"
     ],
     "img": [
@@ -268,8 +255,7 @@
     "name": "Block application",
     "description": "project description",
     "tags": [
-      "web",
-      "mobile"
+      "web"
     ],
     "img": [
       "blocks-page.jpg"
@@ -280,7 +266,6 @@
     "name": "Block application",
     "description": "project description",
     "tags": [
-      "web",
       "mobile"
     ],
     "img": [

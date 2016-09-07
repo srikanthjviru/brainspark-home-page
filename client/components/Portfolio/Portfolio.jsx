@@ -16,14 +16,28 @@ class Portfolio extends React.Component {
         this.state = {
             isShowMoreProjectsBtn: false,
             projects: [],
-            viewProjects: []
+            viewProjects: [],
+            currentFilter: ''
         }
 
         this._getProjects();
     }
 
     handlerFilter = (e) => {
-        console.log(e.target);
+        const data = e.target.getAttribute('data-item');
+        if(!this.handlerFilter.projects) {
+            this.handlerFilter.projects = this.state.viewProjects.slice();
+        }
+        const newProjects = this.handlerFilter.projects.filter(function(el) {
+            if(el.tags.indexOf(data) + 1) {
+                return el;
+            }
+        });
+
+        this.setState({
+            viewProjects: newProjects,
+            currentFilter: data
+        });
     }
 
     handlerMoreProjectsBtn = (e) => {
@@ -34,6 +48,8 @@ class Portfolio extends React.Component {
             viewProjects: newProjects,
             isShowMoreProjectsBtn: (newProjects.length < this.state.projects.length)
         });
+
+        this.handlerFilter.projects = null;
     }
 
     checkAmountProjects = () => {
@@ -50,14 +66,19 @@ class Portfolio extends React.Component {
                     <h2 className='section__header section__header--portfolio'>Our works</h2>
                     <div className="portfolio__filter">
                         {
-                            this.props.filterItems.map((item, index) =>
-                                <div
+                            this.props.filterItems.map((item, index) => {
+                                let activeClassName = '';
+                                if(this.state.currentFilter === item) {
+                                    activeClassName = `portfolio__filter-item--${item}-active`
+                                }
+
+                                return <div
                                     key={index}
-                                    className={`portfolio__filter-item portfolio__filter-item--${item}`}
+                                    className={`portfolio__filter-item portfolio__filter-item--${item} ${activeClassName}`}
                                     data-item={item}
                                     onClick={this.handlerFilter}
                                 />
-                            )
+                            })
                         }
                     </div>
                     <PortfolioGallery
