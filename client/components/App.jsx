@@ -3,7 +3,7 @@ import './App.less';
 
 import WhoWeAre from './WhoWeAre.jsx';
 import WhatWeDo from './WhatWeDo.jsx';
-import Portfolio from './Portfolio.jsx';
+import Portfolio from './Portfolio/Portfolio.jsx';
 import Footer from './Footer.jsx';
 
 class App extends React.Component {

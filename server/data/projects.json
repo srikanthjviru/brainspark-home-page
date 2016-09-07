@@ -1,0 +1,275 @@
+[
+  {
+    "id": 1,
+    "name": "Champion",
+    "description": "project description",
+    "tags": [
+      "web"
+    ],
+    "img": [
+      "champions-page.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Lanch Time",
+    "description": "project description",
+    "tags": [
+      "web",
+      "desktop"
+    ],
+    "img": [
+      "lunch-time-page.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "AOG - Freelance Guide",
+    "description": "project description",
+    "tags": [
+      "mobile"
+    ],
+    "img": [
+      "aog-guid-page.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "AOG - Projects page",
+    "description": "project description",
+    "tags": [
+      "web"
+    ],
+    "img": [
+      "aog-projects-page.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Money back",
+    "description": "project description",
+    "tags": [
+      "desktop"
+    ],
+    "img": [
+      "win-your-money-page.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "default",
+    "description": "project description",
+    "tags": [
+      "web",
+      "mobile"
+    ],
+    "img": [
+      "default-project-page.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "default",
+    "description": "project description",
+    "tags": [
+      "mobile"
+    ],
+    "img": [
+      "default-project-page.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "default",
+    "description": "project description",
+    "tags": [
+      "web",
+      "desktop"
+    ],
+    "img": [
+      "default-project-page.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Minimax",
+    "description": "project description",
+    "tags": [
+      "desktop",
+      "mobile"
+    ],
+    "img": [
+      "minimax-page.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Block application",
+    "description": "project description",
+    "tags": [
+      "mobile"
+    ],
+    "img": [
+      "blocks-page.jpg"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Block application",
+    "description": "project description",
+    "tags": [
+      "mobile"
+    ],
+    "img": [
+      "blocks-page.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Block application",
+    "description": "project description",
+    "tags": [
+      "desktop",
+      "mobile"
+    ],
+    "img": [
+      "blocks-page.jpg"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Champion",
+    "description": "project description",
+    "tags": [
+      "desktop"
+    ],
+    "img": [
+      "champions-page.jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Lanch Time",
+    "description": "project description",
+    "tags": [
+      "web"
+    ],
+    "img": [
+      "lunch-time-page.jpg"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "AOG - Freelance Guide",
+    "description": "project description",
+    "tags": [
+      "desktop",
+      "mobile"
+    ],
+    "img": [
+      "aog-guid-page.jpg"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "AOG - Projects page",
+    "description": "project description",
+    "tags": [
+      "web",
+      "desktop"
+    ],
+    "img": [
+      "aog-projects-page.jpg"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Money back",
+    "description": "project description",
+    "tags": [
+      "mobile"
+    ],
+    "img": [
+      "win-your-money-page.jpg"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "default",
+    "description": "project description",
+    "tags": [
+      "web"
+    ],
+    "img": [
+      "default-project-page.jpg"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "default",
+    "description": "project description",
+    "tags": [
+      "desktop"
+    ],
+    "img": [
+      "default-project-page.jpg"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "default",
+    "description": "project description",
+    "tags": [
+      "desktop",
+      "mobile"
+    ],
+    "img": [
+      "default-project-page.jpg"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Minimax",
+    "description": "project description",
+    "tags": [
+      "mobile"
+    ],
+    "img": [
+      "minimax-page.jpg"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Block application",
+    "description": "project description",
+    "tags": [
+      "web",
+      "mobile"
+    ],
+    "img": [
+      "blocks-page.jpg"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Block application",
+    "description": "project description",
+    "tags": [
+      "web"
+    ],
+    "img": [
+      "blocks-page.jpg"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Block application",
+    "description": "project description",
+    "tags": [
+      "mobile"
+    ],
+    "img": [
+      "blocks-page.jpg"
+    ]
+  }
+]
