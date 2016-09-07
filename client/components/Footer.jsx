@@ -9,7 +9,14 @@ class Footer extends React.Component {
                     Contact us
                 </div>
                 <div className='footer__body'>
-                    
+                    <ul className='contacts contacts--footer'>
+                        <li className="contacts__location">Ukraine, Cherkassy</li>
+                        <li className="contacts__connection">
+                            <span className='font-bold'>tel:</span> +38 093 751 23 15<br/>
+                            <span className='font-bold'>email:</span> <a href='mailto:info@brainspark.info'>info@brainspark.info</a><br/>
+                            <span className='font-bold'>skype:</span> <a href='skype:skypeSerenity?call'>skypeSerenity</a>
+                        </li>
+                    </ul>
                 </div>
             </footer>
         )
