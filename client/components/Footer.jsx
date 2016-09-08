@@ -17,6 +17,12 @@ class Footer extends React.Component {
                             <span className='font-bold'>skype:</span> <a href='skype:skypeSerenity?call'>skypeSerenity</a>
                         </li>
                     </ul>
+                    <ul className="navigation navigation--footer">
+                        <li><a href="#">Who we are</a></li>
+                        <li><a href="#">Technologies</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
                 </div>
             </footer>
         )
