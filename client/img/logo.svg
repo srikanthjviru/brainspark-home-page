@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="110px" height="122px" viewBox="0 0 110 122" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7 (28169) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo Header</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo-Header" transform="translate(0.000000, -1.000000)">
+            <g id="Element">
+                <polygon id="2-image" fill="#F6A623" points="54.8328267 0.994609164 109.665653 31.4959569 109.665653 92.4986523 54.8328267 123 3.55875746e-14 92.4986523 0 31.4959569"></polygon>
+                <g id="Group" transform="translate(26.079027, 17.239892)" font-family="Roboto-Regular, Roboto" fill="#000000" font-weight="normal">
+                    <text id="B" font-size="69.2911051">
+                        <tspan x="7.35208616" y="64">B</tspan>
+                    </text>
+                    <text id="S" font-size="11.93531">
+                        <tspan x="50.958099" y="21.9407008">S</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
