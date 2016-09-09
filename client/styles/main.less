@@ -201,6 +201,105 @@ a {
 /*** navigation ***/
 .navigation {
 
+  li {
+    list-style-type: none;
+  }
+
+  &--header {
+    text-align: center;
+    margin-top: .8em;
+
+    li {
+      display: inline-block;
+      vertical-align: top;
+
+      &:not(.navigation__logo) {
+        margin: .45em 1.5% 0 1.5%;
+      }
+
+      &.navigation__logo {
+        margin: 0 2.5%;
+      }
+
+      a[class*='navigation__'] {
+        display: block;
+        color: #fff;
+        font-size: 1.25em;
+        font-weight: 300;
+        text-align: center;
+
+        &:hover {
+          color: #F5A623;
+          text-decoration: none;
+        }
+
+        &:before {
+          content: '';
+          display: block;
+          width: 47px;
+          height: 50px;
+          padding-bottom: .3em;
+          margin: 0 auto;
+          background: url('../img/navigation-icons-spryte.svg') no-repeat;
+        }
+
+        &.navigation__who-we-are {
+          &:before {
+            background-position: 5px 0;
+          }
+          &:hover {
+            &:before {
+              background-position: 5px -54px;
+            }
+          }
+        }
+        &.navigation__technologies {
+          &:before {
+            background-position: -55px 0;
+          }
+          &:hover {
+            &:before {
+              background-position: -55px -54px;
+            }
+          }
+        }
+        &.navigation__portfolio {
+          &:before {
+            width: 50px;
+            background-position: -113px 0;
+          }
+          &:hover {
+            &:before {
+              background-position: -113px -54px;
+            }
+          }
+        }
+        &.navigation__contacts {
+          &:before {
+            width: 50px;
+            background-position: -170px 0;
+          }
+          &:hover {
+            &:before {
+              background-position: -170px -54px;
+            }
+          }
+        }
+        &.navigation__email {
+          &:before {
+            width: 52px;
+            background-position: -227px -54px;
+          }
+          &:hover {
+            &:before {
+              background-position: -227px 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
   &--footer {
     float: left;
     font-size: 1.5em;
@@ -216,6 +315,23 @@ a {
   }
 }
 
+/*** logo ***/
+.logo {
+
+  &--header {
+    display: block;
+    width: 110px;
+    height: 122px;
+    font-size: 0.75em;
+    line-height: 187px;
+    background: url('../img/logo.svg') no-repeat;
+
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
 
 /*** contacts ***/
 .contacts {
