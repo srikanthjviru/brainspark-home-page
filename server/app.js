@@ -22,6 +22,12 @@ app.get('/technologies', (req, res) => {
 app.get('/projects', (req, res) => {
     res.json(projectsData);
 });
+app.get('/projects/:projectID', (req, res) => {
+    const projectID = parseInt(req.params.projectID, 10);
+    const project = projectsData.find(project => projectID === project.id);
+
+    res.json(project);
+});
 
 
 

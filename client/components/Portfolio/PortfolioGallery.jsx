@@ -13,8 +13,9 @@ class PortfolioGallery extends React.Component {
                                     <span key={indexTwo}>
                                         <Hexagon
                                             className='gallery__hexagon'
-                                            backgroundImage={`/static/projects/${project.img[0]}`}
+                                            backgroundImage={`/static/projects/${project.imgs.main}`}
                                             style={{stroke: 'transparent', strokeWidth: 0}}
+                                            href={`/projects/${project.id}`}
                                          />
                                     </span>
                                 )

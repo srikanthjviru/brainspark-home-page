@@ -6,6 +6,17 @@
     "platforms": [
       "web"
     ],
+    "duration": 1,
+    "team": 2,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
     "imgs": {
       "head": "minimax-page-head.jpg",
       "main": "champions-page.jpg",
@@ -24,6 +35,17 @@
       "web",
       "desktop"
     ],
+    "duration": 12,
+    "team": 2,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
     "imgs": {
       "head": "minimax-page-head.jpg",
       "main": "lunch-time-page.jpg",
@@ -40,6 +62,17 @@
     "description": "project description",
     "platforms": [
       "mobile"
+    ],
+    "duration": 2,
+    "team": 5,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
     ],
     "imgs": {
       "head": "minimax-page-head.jpg",
@@ -58,6 +91,17 @@
     "platforms": [
       "web"
     ],
+    "team": 2,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 0.5,
     "imgs": {
       "head": "minimax-page-head.jpg",
       "main": "aog-projects-page.jpg",
@@ -75,6 +119,17 @@
     "platforms": [
       "desktop"
     ],
+    "team": 2,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 3,
     "imgs": {
       "head": "minimax-page-head.jpg",
       "main": "win-your-money-page.jpg",
@@ -93,6 +148,17 @@
       "web",
       "mobile"
     ],
+    "team": 8,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 1,
     "imgs": {
       "head": "minimax-page-head.jpg",
       "main": "default-project-page.jpg",
@@ -110,6 +176,17 @@
     "platforms": [
       "mobile"
     ],
+    "team": 2,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 4,
     "imgs": {
       "head": "minimax-page-head.jpg",
       "main": "default-project-page.jpg",
@@ -128,6 +205,17 @@
       "web",
       "desktop"
     ],
+    "team": 2,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 1,
     "imgs": {
       "head": "minimax-page-head.jpg",
       "main": "default-project-page.jpg",
@@ -146,6 +234,17 @@
       "desktop",
       "mobile"
     ],
+    "team": 12,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 5,
     "imgs": {
       "head": "minimax-page-head.jpg",
       "main": "minimax-page.jpg",
@@ -163,6 +262,17 @@
     "platforms": [
       "mobile"
     ],
+    "team": 2,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 2,
     "imgs": {
       "head": "minimax-page-head.jpg",
       "main": "blocks-page.jpg",
@@ -180,6 +290,17 @@
     "platforms": [
       "mobile"
     ],
+    "team": 2,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 6,
     "imgs": {
       "head": "minimax-page-head.jpg",
       "main": "blocks-page.jpg",
@@ -198,6 +319,17 @@
       "desktop",
       "mobile"
     ],
+    "team": 5,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 0.75,
     "imgs": {
       "head": "minimax-page-head.jpg",
       "main": "blocks-page.jpg",
@@ -215,6 +347,17 @@
     "platforms": [
       "desktop"
     ],
+    "team": 7,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 3,
     "imgs": {
       "head": "minimax-page-head.jpg",
       "main": "champions-page.jpg",
@@ -232,6 +375,17 @@
     "platforms": [
       "web"
     ],
+    "team": 2,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 3,
     "imgs": {
       "head": "minimax-page-head.jpg",
       "main": "lunch-time-page.jpg",
@@ -250,6 +404,17 @@
       "desktop",
       "mobile"
     ],
+    "team": 4,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 1,
     "imgs": {
       "head": "minimax-page-head.jpg",
       "main": "aog-guid-page.jpg",
@@ -268,6 +433,17 @@
       "web",
       "desktop"
     ],
+    "team": 3,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 7,
     "imgs": {
       "head": "minimax-page-head.jpg",
       "main": "aog-guid-page.jpg",
@@ -285,6 +461,17 @@
     "platforms": [
       "mobile"
     ],
+    "team": 7,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 3,
     "imgs": {
       "head": "minimax-page-head.jpg",
       "main": "win-your-money-page.jpg",
@@ -302,6 +489,17 @@
     "platforms": [
       "web"
     ],
+    "team": 12,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 2.5,
     "imgs": {
       "head": "minimax-page-head.jpg",
       "main": "default-project-page.jpg",
@@ -319,6 +517,17 @@
     "platforms": [
       "desktop"
     ],
+    "team": 3,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 1,
     "imgs": {
       "head": "minimax-page-head.jpg",
       "main": "default-project-page.jpg",
@@ -337,6 +546,17 @@
       "desktop",
       "mobile"
     ],
+    "team": 9,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 0.25,
     "imgs": {
       "head": "minimax-page-head.jpg",
       "main": "default-project-page.jpg",
@@ -354,6 +574,17 @@
     "platforms": [
       "mobile"
     ],
+    "team": 1,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 2,
     "imgs": {
       "head": "minimax-page-head.jpg",
       "main": "minimax-page.jpg",
@@ -372,6 +603,17 @@
       "web",
       "mobile"
     ],
+    "team": 3,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 9,
     "imgs": {
       "head": "minimax-page-head.jpg",
       "main": "blocks-page.jpg",
@@ -389,6 +631,17 @@
     "platforms": [
       "web"
     ],
+    "team": 4,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 3,
     "imgs": {
       "head": "minimax-page-head.jpg",
       "main": "blocks-page.jpg",
@@ -406,6 +659,17 @@
     "platforms": [
       "mobile"
     ],
+    "team": 2,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 13,
     "imgs": {
       "head": "minimax-page-head.jpg",
       "main": "blocks-page.jpg",
