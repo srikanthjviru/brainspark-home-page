@@ -29,7 +29,7 @@ class Portfolio extends React.Component {
             this.handlerFilter.projects = this.state.viewProjects.slice();
         }
         const newProjects = this.handlerFilter.projects.filter(function(el) {
-            if(el.tags.indexOf(data) + 1) {
+            if(el.platforms.indexOf(data) + 1) {
                 return el;
             }
         });
@@ -64,17 +64,17 @@ class Portfolio extends React.Component {
                 <div className='portfolio__body'>
                     <a className="action-btn action-btn--portfolio-send" href="#">Send the Project</a>
                     <h2 className='section__header section__header--portfolio'>Our works</h2>
-                    <div className="portfolio__filter">
+                    <div className="platforms platforms--portfolio">
                         {
                             this.props.filterItems.map((item, index) => {
                                 let activeClassName = '';
                                 if(this.state.currentFilter === item) {
-                                    activeClassName = `portfolio__filter-item--${item}-active`
+                                    activeClassName = `platforms__item--${item}-active`
                                 }
 
                                 return <div
                                     key={index}
-                                    className={`portfolio__filter-item portfolio__filter-item--${item} ${activeClassName}`}
+                                    className={`platforms__item platforms__item--${item} ${activeClassName}`}
                                     data-item={item}
                                     onClick={this.handlerFilter}
                                 />

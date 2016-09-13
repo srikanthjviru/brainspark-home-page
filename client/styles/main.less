@@ -472,3 +472,62 @@ a {
     }
   }
 }
+/*** platforms ***/
+.platforms {
+  position: relative;
+  z-index: 30;
+  margin-top: 1em;
+
+  &__item {
+    display: inline-block;
+    width: 107px;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+    cursor: pointer;
+    margin: 0 1.3em;
+
+    &:before {
+      content: '';
+      display: inline-block;;
+      width: 43px;
+      height: 45px;
+      vertical-align: middle;
+      background: url('../img/filter-icons-spryte.svg') no-repeat;
+    }
+
+    &--desktop {
+      &:hover,
+      &-active {
+        &:before {
+          background-position: -62px 0;
+        }
+      }
+    }
+    &--web {
+      &:before {
+        width: 54px;
+        background-position: -122px 0;
+      }
+      &:hover,
+      &-active {
+        &:before {
+          background-position: -187px 0;
+        }
+      }
+    }
+    &--mobile {
+      &:before {
+        width: 32px;
+        height: 47px;
+        background-position: -262px 0;
+      }
+      &:hover,
+      &-active {
+        &:before {
+          background-position: -300px 0;
+        }
+      }
+    }
+  }
+
