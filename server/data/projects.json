@@ -3,273 +3,681 @@
     "id": 1,
     "name": "Champion",
     "description": "project description",
-    "tags": [
+    "platforms": [
       "web"
     ],
-    "img": [
-      "champions-page.jpg"
-    ]
+    "duration": 1,
+    "team": 2,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "imgs": {
+      "head": "minimax-page-head.jpg",
+      "main": "champions-page.jpg",
+      "all": [
+        "default-project-page.jpg",
+        "default-project-page.jpg",
+        "default-project-page.jpg"
+      ]
+    }
   },
   {
     "id": 2,
     "name": "Lanch Time",
     "description": "project description",
-    "tags": [
+    "platforms": [
       "web",
       "desktop"
     ],
-    "img": [
-      "lunch-time-page.jpg"
-    ]
+    "duration": 12,
+    "team": 2,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "imgs": {
+      "head": "minimax-page-head.jpg",
+      "main": "lunch-time-page.jpg",
+      "all": [
+        "default-project-page.jpg",
+        "default-project-page.jpg",
+        "default-project-page.jpg"
+      ]
+    }
   },
   {
     "id": 3,
     "name": "AOG - Freelance Guide",
     "description": "project description",
-    "tags": [
+    "platforms": [
       "mobile"
     ],
-    "img": [
-      "aog-guid-page.jpg"
-    ]
+    "duration": 2,
+    "team": 5,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "imgs": {
+      "head": "minimax-page-head.jpg",
+      "main": "aog-guid-page.jpg",
+      "all": [
+        "default-project-page.jpg",
+        "default-project-page.jpg",
+        "default-project-page.jpg"
+      ]
+    }
   },
   {
     "id": 4,
     "name": "AOG - Projects page",
     "description": "project description",
-    "tags": [
+    "platforms": [
       "web"
     ],
-    "img": [
-      "aog-projects-page.jpg"
-    ]
+    "team": 2,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 0.5,
+    "imgs": {
+      "head": "minimax-page-head.jpg",
+      "main": "aog-projects-page.jpg",
+      "all": [
+        "default-project-page.jpg",
+        "default-project-page.jpg",
+        "default-project-page.jpg"
+      ]
+    }
   },
   {
     "id": 5,
     "name": "Money back",
     "description": "project description",
-    "tags": [
+    "platforms": [
       "desktop"
     ],
-    "img": [
-      "win-your-money-page.jpg"
-    ]
+    "team": 2,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 3,
+    "imgs": {
+      "head": "minimax-page-head.jpg",
+      "main": "win-your-money-page.jpg",
+      "all": [
+        "default-project-page.jpg",
+        "default-project-page.jpg",
+        "default-project-page.jpg"
+      ]
+    }
   },
   {
     "id": 6,
     "name": "default",
     "description": "project description",
-    "tags": [
+    "platforms": [
       "web",
       "mobile"
     ],
-    "img": [
-      "default-project-page.jpg"
-    ]
+    "team": 8,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 1,
+    "imgs": {
+      "head": "minimax-page-head.jpg",
+      "main": "default-project-page.jpg",
+      "all": [
+        "default-project-page.jpg",
+        "default-project-page.jpg",
+        "default-project-page.jpg"
+      ]
+    }
   },
   {
     "id": 7,
     "name": "default",
     "description": "project description",
-    "tags": [
+    "platforms": [
       "mobile"
     ],
-    "img": [
-      "default-project-page.jpg"
-    ]
+    "team": 2,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 4,
+    "imgs": {
+      "head": "minimax-page-head.jpg",
+      "main": "default-project-page.jpg",
+      "all": [
+        "default-project-page.jpg",
+        "default-project-page.jpg",
+        "default-project-page.jpg"
+      ]
+    }
   },
   {
     "id": 8,
     "name": "default",
     "description": "project description",
-    "tags": [
+    "platforms": [
       "web",
       "desktop"
     ],
-    "img": [
-      "default-project-page.jpg"
-    ]
+    "team": 2,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 1,
+    "imgs": {
+      "head": "minimax-page-head.jpg",
+      "main": "default-project-page.jpg",
+      "all": [
+        "default-project-page.jpg",
+        "default-project-page.jpg",
+        "default-project-page.jpg"
+      ]
+    }
   },
   {
     "id": 9,
-    "name": "Minimax",
-    "description": "project description",
-    "tags": [
+    "name": "MiniMax",
+    "description": "We are a team of web professionals working together to create, launch and maintain your online presence succesfully. We specialize in custom web site development and design as well as setup and customization of popular Open Source solutions.",
+    "platforms": [
       "desktop",
       "mobile"
     ],
-    "img": [
-      "minimax-page.jpg"
-    ]
+    "team": 12,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 5,
+    "imgs": {
+      "head": "minimax-page-head.jpg",
+      "main": "minimax-page.jpg",
+      "all": [
+        "default-project-page.jpg",
+        "default-project-page.jpg",
+        "default-project-page.jpg"
+      ]
+    }
   },
   {
     "id": 10,
     "name": "Block application",
     "description": "project description",
-    "tags": [
+    "platforms": [
       "mobile"
     ],
-    "img": [
-      "blocks-page.jpg"
-    ]
+    "team": 2,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 2,
+    "imgs": {
+      "head": "minimax-page-head.jpg",
+      "main": "blocks-page.jpg",
+      "all": [
+        "default-project-page.jpg",
+        "default-project-page.jpg",
+        "default-project-page.jpg"
+      ]
+    }
   },
   {
     "id": 11,
     "name": "Block application",
     "description": "project description",
-    "tags": [
+    "platforms": [
       "mobile"
     ],
-    "img": [
-      "blocks-page.jpg"
-    ]
+    "team": 2,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 6,
+    "imgs": {
+      "head": "minimax-page-head.jpg",
+      "main": "blocks-page.jpg",
+      "all": [
+        "default-project-page.jpg",
+        "default-project-page.jpg",
+        "default-project-page.jpg"
+      ]
+    }
   },
   {
     "id": 12,
     "name": "Block application",
     "description": "project description",
-    "tags": [
+    "platforms": [
       "desktop",
       "mobile"
     ],
-    "img": [
-      "blocks-page.jpg"
-    ]
+    "team": 5,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 0.75,
+    "imgs": {
+      "head": "minimax-page-head.jpg",
+      "main": "blocks-page.jpg",
+      "all": [
+        "default-project-page.jpg",
+        "default-project-page.jpg",
+        "default-project-page.jpg"
+      ]
+    }
   },
   {
     "id": 13,
     "name": "Champion",
     "description": "project description",
-    "tags": [
+    "platforms": [
       "desktop"
     ],
-    "img": [
-      "champions-page.jpg"
-    ]
+    "team": 7,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 3,
+    "imgs": {
+      "head": "minimax-page-head.jpg",
+      "main": "champions-page.jpg",
+      "all": [
+        "default-project-page.jpg",
+        "default-project-page.jpg",
+        "default-project-page.jpg"
+      ]
+    }
   },
   {
     "id": 14,
     "name": "Lanch Time",
     "description": "project description",
-    "tags": [
+    "platforms": [
       "web"
     ],
-    "img": [
-      "lunch-time-page.jpg"
-    ]
+    "team": 2,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 3,
+    "imgs": {
+      "head": "minimax-page-head.jpg",
+      "main": "lunch-time-page.jpg",
+      "all": [
+        "default-project-page.jpg",
+        "default-project-page.jpg",
+        "default-project-page.jpg"
+      ]
+    }
   },
   {
     "id": 15,
     "name": "AOG - Freelance Guide",
     "description": "project description",
-    "tags": [
+    "platforms": [
       "desktop",
       "mobile"
     ],
-    "img": [
-      "aog-guid-page.jpg"
-    ]
+    "team": 4,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 1,
+    "imgs": {
+      "head": "minimax-page-head.jpg",
+      "main": "aog-guid-page.jpg",
+      "all": [
+        "default-project-page.jpg",
+        "default-project-page.jpg",
+        "default-project-page.jpg"
+      ]
+    }
   },
   {
     "id": 16,
     "name": "AOG - Projects page",
     "description": "project description",
-    "tags": [
+    "platforms": [
       "web",
       "desktop"
     ],
-    "img": [
-      "aog-projects-page.jpg"
-    ]
+    "team": 3,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 7,
+    "imgs": {
+      "head": "minimax-page-head.jpg",
+      "main": "aog-guid-page.jpg",
+      "all": [
+        "default-project-page.jpg",
+        "default-project-page.jpg",
+        "default-project-page.jpg"
+      ]
+    }
   },
   {
     "id": 17,
     "name": "Money back",
     "description": "project description",
-    "tags": [
+    "platforms": [
       "mobile"
     ],
-    "img": [
-      "win-your-money-page.jpg"
-    ]
+    "team": 7,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 3,
+    "imgs": {
+      "head": "minimax-page-head.jpg",
+      "main": "win-your-money-page.jpg",
+      "all": [
+        "default-project-page.jpg",
+        "default-project-page.jpg",
+        "default-project-page.jpg"
+      ]
+    }
   },
   {
     "id": 18,
     "name": "default",
     "description": "project description",
-    "tags": [
+    "platforms": [
       "web"
     ],
-    "img": [
-      "default-project-page.jpg"
-    ]
+    "team": 12,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 2.5,
+    "imgs": {
+      "head": "minimax-page-head.jpg",
+      "main": "default-project-page.jpg",
+      "all": [
+        "default-project-page.jpg",
+        "default-project-page.jpg",
+        "default-project-page.jpg"
+      ]
+    }
   },
   {
     "id": 19,
     "name": "default",
     "description": "project description",
-    "tags": [
+    "platforms": [
       "desktop"
     ],
-    "img": [
-      "default-project-page.jpg"
-    ]
+    "team": 3,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 1,
+    "imgs": {
+      "head": "minimax-page-head.jpg",
+      "main": "default-project-page.jpg",
+      "all": [
+        "default-project-page.jpg",
+        "default-project-page.jpg",
+        "default-project-page.jpg"
+      ]
+    }
   },
   {
     "id": 20,
     "name": "default",
     "description": "project description",
-    "tags": [
+    "platforms": [
       "desktop",
       "mobile"
     ],
-    "img": [
-      "default-project-page.jpg"
-    ]
+    "team": 9,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 0.25,
+    "imgs": {
+      "head": "minimax-page-head.jpg",
+      "main": "default-project-page.jpg",
+      "all": [
+        "default-project-page.jpg",
+        "default-project-page.jpg",
+        "default-project-page.jpg"
+      ]
+    }
   },
   {
     "id": 21,
     "name": "Minimax",
     "description": "project description",
-    "tags": [
+    "platforms": [
       "mobile"
     ],
-    "img": [
-      "minimax-page.jpg"
-    ]
+    "team": 1,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 2,
+    "imgs": {
+      "head": "minimax-page-head.jpg",
+      "main": "minimax-page.jpg",
+      "all": [
+        "default-project-page.jpg",
+        "default-project-page.jpg",
+        "default-project-page.jpg"
+      ]
+    }
   },
   {
     "id": 22,
     "name": "Block application",
     "description": "project description",
-    "tags": [
+    "platforms": [
       "web",
       "mobile"
     ],
-    "img": [
-      "blocks-page.jpg"
-    ]
+    "team": 3,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 9,
+    "imgs": {
+      "head": "minimax-page-head.jpg",
+      "main": "blocks-page.jpg",
+      "all": [
+        "default-project-page.jpg",
+        "default-project-page.jpg",
+        "default-project-page.jpg"
+      ]
+    }
   },
   {
     "id": 23,
     "name": "Block application",
     "description": "project description",
-    "tags": [
+    "platforms": [
       "web"
     ],
-    "img": [
-      "blocks-page.jpg"
-    ]
+    "team": 4,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 3,
+    "imgs": {
+      "head": "minimax-page-head.jpg",
+      "main": "blocks-page.jpg",
+      "all": [
+        "default-project-page.jpg",
+        "default-project-page.jpg",
+        "default-project-page.jpg"
+      ]
+    }
   },
   {
     "id": 24,
     "name": "Block application",
     "description": "project description",
-    "tags": [
+    "platforms": [
       "mobile"
     ],
-    "img": [
-      "blocks-page.jpg"
-    ]
+    "team": 2,
+    "technologies": [
+      "html5",
+      "css3",
+      "mysql",
+      "symfony 2",
+      "php",
+      "mongodb",
+      "javascript"
+    ],
+    "duration": 13,
+    "imgs": {
+      "head": "minimax-page-head.jpg",
+      "main": "blocks-page.jpg",
+      "all": [
+        "default-project-page.jpg",
+        "default-project-page.jpg",
+        "default-project-page.jpg"
+      ]
+    }
   }
 ]

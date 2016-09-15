@@ -21,7 +21,8 @@
     "less": "^2.7.1",
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
-    "react-hexagon": "^1.0.1"
+    "react-hexagon": "^1.0.1",
+    "react-router": "^2.8.0"
   },
   "devDependencies": {
     "autoprefixer-loader": "*",
