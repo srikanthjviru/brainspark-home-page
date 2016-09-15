@@ -48,6 +48,25 @@ class ProjectPage extends React.Component {
                     style={{stroke: 'transparent', strokeWidth: 0}}
                />
            );
+
+           if( Object.keys(allTechnologies).length ) {
+                const filterTechnologies = allTechnologies.filter(technology => {
+                    if(project.technologies.indexOf(technology.name) !== -1) {
+                        return technology.name;
+                    }
+                })
+
+               projectTechnologies =  filterTechnologies.map((technology, index) =>
+                  <div className='technologies__item' key={index}>
+                      <div className='technologies__item-icon'>
+                          <img src={`/static/technologies/${technology.img}`} alt={`${technology.name}-icon`} />
+                      </div>
+                      <div className='technologies__item-name'>
+                          {technology.name}
+                      </div>
+                  </div>
+              )
+           }
         }
 
         return(
@@ -87,7 +106,7 @@ class ProjectPage extends React.Component {
                             </ul>
                         </div>
                         <div className='technologies technologies--project'>
-
+                            {projectTechnologies}
                         </div>
                     </div>
             </div>
