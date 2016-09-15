@@ -1,5 +1,5 @@
 @import "./reset.css";
-@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+@import "./font.css";
 
 #main {
     width: 100%;
@@ -472,6 +472,7 @@ a {
     }
   }
 }
+
 /*** platforms ***/
 .platforms {
   position: relative;
@@ -531,3 +532,18 @@ a {
     }
   }
 
+  &--portfolio {
+
+    .platforms__item {
+      background: url('../img/filter-hexagon.png') no-repeat;
+      background-size: 100%;
+    }
+  }
+
+  &--project {
+    position: absolute;
+    width: 100%;
+    top: -16em;
+    text-align: center;
+  }
+}
