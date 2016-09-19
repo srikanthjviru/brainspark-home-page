@@ -10,6 +10,7 @@ body {
     color: black;
     font-size: 100%;
     font-family: 'Roboto', sans-serif;
+    background: white;
 }
 
 a {
@@ -37,20 +38,66 @@ a {
         font-size: 4em;
         font-weight: 300;
         text-align: center;
+        padding: 0 1%;
+
+        @media only screen and (max-width: 700px) {
+          & {
+            font-size: 3.5em;
+          }
+        }
+        @media only screen and (max-width: 600px) {
+          & {
+            padding: 0 5%;
+          }
+        }
+        @media only screen and (max-width: 600px) {
+          & {
+            font-size: 3em;
+          }
+        }
+        @media only screen and (max-width: 400px) {
+          & {
+            font-size: 2.5em;
+          }
+        }
     }
 }
 
 /*** sections ***/
 .section {
+  padding: 1px; //fix of gap
 
     &__header {
         font-size: 4em;
         font-weight: 300;
         text-align: center;
 
+        @media only screen and (max-width: 700px) {
+          & {
+            font-size: 3.5em;
+          }
+        }
+        @media only screen and (max-width: 500px) {
+          & {
+            font-size: 3em;
+          }
+        }
+        @media only screen and (max-width: 400px) {
+          & {
+            font-size: 2.5em;
+          }
+        }
+
+
         &--who-we-are {
             color: #F5A623;
             margin-top: 3em;
+
+            @media only screen and (max-width: 400px) {
+              & {
+                margin-top: 4em;
+              }
+            }
         }
         &--what-we-do {
           color: #F5A623;
@@ -146,6 +193,7 @@ a {
     display: inline-block;
     width: 20%;
     text-align: center;
+    vertical-align: top;
 
     &-icon {
       display: inline-block;
@@ -406,6 +454,45 @@ a {
         }
       }
     }
+
+    @media only screen and (max-width: 800px) {
+      & {
+        width: 40%;
+        min-width: 260px;
+        position: absolute;
+        z-index: 30;
+        top: -2px;
+        right: -100%;
+        padding: 5em 3em 5em 3em;
+        margin: 0 0 0 0;
+        box-shadow:
+          rgba(0, 0, 0, 0.2) 0px 5px 4px,
+          rgba(0, 0, 0, 0.2) 0px 5px 4px;
+        background: white;
+        transition: .3s;
+
+        li {
+          display: block;
+
+          a {
+            color: black !important;
+
+            &:before {
+              display: none !important;
+            }
+          }
+
+          &.navigation__logo {
+            display: none;
+
+          }
+        }
+
+        &.navigation--open {
+          right: 0;
+        }
+      }
+    }
   }
 
   &--footer {
@@ -434,6 +521,7 @@ a {
     height: 122px;
     font-size: 0.75em;
     line-height: 187px;
+    text-align: center;
     margin-left: -61px;
     background: url('../img/logo.svg') no-repeat;
 
@@ -441,6 +529,10 @@ a {
     &:hover {
       text-decoration: none;
     }
+  }
+
+  &--header-mobile {
+    top: .6em;
   }
 }
 
