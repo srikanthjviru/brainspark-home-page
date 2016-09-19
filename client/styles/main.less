@@ -77,16 +77,8 @@ a {
     display: inline-block;
     width: 20%;
     text-align: center;
-  }
 
-  &--what-we-do {
-    margin: 3.4em 0 2em 0;
-
-    .technologies__item {
-      margin-bottom: 4em;
-    }
-
-    .technologies__item-icon {
+    &-icon {
       display: inline-block;
       height: 40px;
 
@@ -95,9 +87,55 @@ a {
         height: 100%;
       }
     }
-    .technologies__item-name {
+    &-name {
       font-size: 1.5em;
       margin-top: .3em;
+    }
+  }
+
+  &--what-we-do {
+    margin: 3.4em 0 2em 0;
+
+    .technologies__item {
+      margin-bottom: 4em;
+    }
+  }
+
+  &--project {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 80%;
+    margin-top: 7em;
+
+    .technologies__item {
+      float: right;
+      width: 17%;
+
+      &:nth-child(2) {
+        margin-top: 7em;
+      }
+      &:nth-child(3) {
+        margin-top: 14em;
+      }
+      &:nth-child(4) {
+        margin-top: 21em;
+      }
+      &:nth-child(5) {
+        margin-top: 28em;
+      }
+      &:nth-child(6) {
+        margin: -17em 5% 0 0;
+      }
+      &:nth-child(7) {
+        margin: -11em 21% 0 0;
+      }
+      &:nth-child(8) {
+        margin: -4.5em 38% 0 0;
+      }
+      &:nth-child(9) {
+        margin: 2em 0% 0 0;
+      }
     }
   }
 }
@@ -227,6 +265,7 @@ a {
         font-size: 1.25em;
         font-weight: 300;
         text-align: center;
+        text-transform: capitalize;
 
         &:hover {
           color: #F5A623;

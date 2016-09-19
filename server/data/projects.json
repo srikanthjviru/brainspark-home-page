@@ -9,13 +9,13 @@
     "duration": 1,
     "team": 2,
     "technologies": [
-      "html5",
-      "css3",
-      "mysql",
-      "symfony 2",
-      "php",
-      "mongodb",
-      "javascript"
+      "HTML5",
+      "CSS3",
+      "MySQL",
+      "Symfony 2",
+      "PHP",
+      "MongoDB",
+      "Javascript"
     ],
     "imgs": {
       "head": "minimax-page-head.jpg",
@@ -38,13 +38,13 @@
     "duration": 12,
     "team": 2,
     "technologies": [
-      "html5",
-      "css3",
-      "mysql",
-      "symfony 2",
-      "php",
-      "mongodb",
-      "javascript"
+      "HTML5",
+      "CSS3",
+      "MySQL",
+      "Symfony 2",
+      "PHP",
+      "MongoDB",
+      "Javascript"
     ],
     "imgs": {
       "head": "minimax-page-head.jpg",
@@ -66,13 +66,13 @@
     "duration": 2,
     "team": 5,
     "technologies": [
-      "html5",
-      "css3",
-      "mysql",
-      "symfony 2",
-      "php",
-      "mongodb",
-      "javascript"
+      "HTML5",
+      "CSS3",
+      "MySQL",
+      "Symfony 2",
+      "PHP",
+      "MongoDB",
+      "Javascript"
     ],
     "imgs": {
       "head": "minimax-page-head.jpg",
@@ -93,13 +93,13 @@
     ],
     "team": 2,
     "technologies": [
-      "html5",
-      "css3",
-      "mysql",
-      "symfony 2",
-      "php",
-      "mongodb",
-      "javascript"
+      "HTML5",
+      "CSS3",
+      "MySQL",
+      "Symfony 2",
+      "PHP",
+      "MongoDB",
+      "Javascript"
     ],
     "duration": 0.5,
     "imgs": {
@@ -121,13 +121,13 @@
     ],
     "team": 2,
     "technologies": [
-      "html5",
-      "css3",
-      "mysql",
-      "symfony 2",
-      "php",
-      "mongodb",
-      "javascript"
+      "HTML5",
+      "CSS3",
+      "MySQL",
+      "Symfony 2",
+      "PHP",
+      "MongoDB",
+      "Javascript"
     ],
     "duration": 3,
     "imgs": {
@@ -150,13 +150,13 @@
     ],
     "team": 8,
     "technologies": [
-      "html5",
-      "css3",
-      "mysql",
-      "symfony 2",
-      "php",
-      "mongodb",
-      "javascript"
+      "HTML5",
+      "CSS3",
+      "MySQL",
+      "Symfony 2",
+      "PHP",
+      "MongoDB",
+      "Javascript"
     ],
     "duration": 1,
     "imgs": {
@@ -178,13 +178,13 @@
     ],
     "team": 2,
     "technologies": [
-      "html5",
-      "css3",
-      "mysql",
-      "symfony 2",
-      "php",
-      "mongodb",
-      "javascript"
+      "HTML5",
+      "CSS3",
+      "MySQL",
+      "Symfony 2",
+      "PHP",
+      "MongoDB",
+      "Javascript"
     ],
     "duration": 4,
     "imgs": {
@@ -207,13 +207,13 @@
     ],
     "team": 2,
     "technologies": [
-      "html5",
-      "css3",
-      "mysql",
-      "symfony 2",
-      "php",
-      "mongodb",
-      "javascript"
+      "HTML5",
+      "CSS3",
+      "MySQL",
+      "Symfony 2",
+      "PHP",
+      "MongoDB",
+      "Javascript"
     ],
     "duration": 1,
     "imgs": {
@@ -236,13 +236,15 @@
     ],
     "team": 12,
     "technologies": [
-      "html5",
-      "css3",
-      "mysql",
-      "symfony 2",
-      "php",
-      "mongodb",
-      "javascript"
+      "HTML5",
+      "CSS3",
+      "MySQL",
+      "Symfony 2",
+      "PHP",
+      "MongoDB",
+      "Javascript",
+      "Node JS",
+      "Bootstrap"
     ],
     "duration": 5,
     "imgs": {
@@ -264,13 +266,13 @@
     ],
     "team": 2,
     "technologies": [
-      "html5",
-      "css3",
-      "mysql",
-      "symfony 2",
-      "php",
-      "mongodb",
-      "javascript"
+      "HTML5",
+      "CSS3",
+      "MySQL",
+      "Symfony 2",
+      "PHP",
+      "MongoDB",
+      "Javascript"
     ],
     "duration": 2,
     "imgs": {
@@ -292,13 +294,13 @@
     ],
     "team": 2,
     "technologies": [
-      "html5",
-      "css3",
-      "mysql",
-      "symfony 2",
-      "php",
-      "mongodb",
-      "javascript"
+      "HTML5",
+      "CSS3",
+      "MySQL",
+      "Symfony 2",
+      "PHP",
+      "MongoDB",
+      "Javascript"
     ],
     "duration": 6,
     "imgs": {
@@ -321,13 +323,13 @@
     ],
     "team": 5,
     "technologies": [
-      "html5",
-      "css3",
-      "mysql",
-      "symfony 2",
-      "php",
-      "mongodb",
-      "javascript"
+      "HTML5",
+      "CSS3",
+      "MySQL",
+      "Symfony 2",
+      "PHP",
+      "MongoDB",
+      "Javascript"
     ],
     "duration": 0.75,
     "imgs": {
@@ -349,13 +351,13 @@
     ],
     "team": 7,
     "technologies": [
-      "html5",
-      "css3",
-      "mysql",
-      "symfony 2",
-      "php",
-      "mongodb",
-      "javascript"
+      "HTML5",
+      "CSS3",
+      "MySQL",
+      "Symfony 2",
+      "PHP",
+      "MongoDB",
+      "Javascript"
     ],
     "duration": 3,
     "imgs": {
@@ -377,13 +379,13 @@
     ],
     "team": 2,
     "technologies": [
-      "html5",
-      "css3",
-      "mysql",
-      "symfony 2",
-      "php",
-      "mongodb",
-      "javascript"
+      "HTML5",
+      "CSS3",
+      "MySQL",
+      "Symfony 2",
+      "PHP",
+      "MongoDB",
+      "Javascript"
     ],
     "duration": 3,
     "imgs": {
@@ -406,13 +408,13 @@
     ],
     "team": 4,
     "technologies": [
-      "html5",
-      "css3",
-      "mysql",
-      "symfony 2",
-      "php",
-      "mongodb",
-      "javascript"
+      "HTML5",
+      "CSS3",
+      "MySQL",
+      "Symfony 2",
+      "PHP",
+      "MongoDB",
+      "Javascript"
     ],
     "duration": 1,
     "imgs": {
@@ -435,13 +437,13 @@
     ],
     "team": 3,
     "technologies": [
-      "html5",
-      "css3",
-      "mysql",
-      "symfony 2",
-      "php",
-      "mongodb",
-      "javascript"
+      "HTML5",
+      "CSS3",
+      "MySQL",
+      "Symfony 2",
+      "PHP",
+      "MongoDB",
+      "Javascript"
     ],
     "duration": 7,
     "imgs": {
@@ -463,13 +465,13 @@
     ],
     "team": 7,
     "technologies": [
-      "html5",
-      "css3",
-      "mysql",
-      "symfony 2",
-      "php",
-      "mongodb",
-      "javascript"
+      "HTML5",
+      "CSS3",
+      "MySQL",
+      "Symfony 2",
+      "PHP",
+      "MongoDB",
+      "Javascript"
     ],
     "duration": 3,
     "imgs": {
@@ -491,13 +493,13 @@
     ],
     "team": 12,
     "technologies": [
-      "html5",
-      "css3",
-      "mysql",
-      "symfony 2",
-      "php",
-      "mongodb",
-      "javascript"
+      "HTML5",
+      "CSS3",
+      "MySQL",
+      "Symfony 2",
+      "PHP",
+      "MongoDB",
+      "Javascript"
     ],
     "duration": 2.5,
     "imgs": {
@@ -519,13 +521,13 @@
     ],
     "team": 3,
     "technologies": [
-      "html5",
-      "css3",
-      "mysql",
-      "symfony 2",
-      "php",
-      "mongodb",
-      "javascript"
+      "HTML5",
+      "CSS3",
+      "MySQL",
+      "Symfony 2",
+      "PHP",
+      "MongoDB",
+      "Javascript"
     ],
     "duration": 1,
     "imgs": {
@@ -548,13 +550,13 @@
     ],
     "team": 9,
     "technologies": [
-      "html5",
-      "css3",
-      "mysql",
-      "symfony 2",
-      "php",
-      "mongodb",
-      "javascript"
+      "HTML5",
+      "CSS3",
+      "MySQL",
+      "Symfony 2",
+      "PHP",
+      "MongoDB",
+      "Javascript"
     ],
     "duration": 0.25,
     "imgs": {
@@ -576,13 +578,13 @@
     ],
     "team": 1,
     "technologies": [
-      "html5",
-      "css3",
-      "mysql",
-      "symfony 2",
-      "php",
-      "mongodb",
-      "javascript"
+      "HTML5",
+      "CSS3",
+      "MySQL",
+      "Symfony 2",
+      "PHP",
+      "MongoDB",
+      "Javascript"
     ],
     "duration": 2,
     "imgs": {
@@ -605,13 +607,13 @@
     ],
     "team": 3,
     "technologies": [
-      "html5",
-      "css3",
-      "mysql",
-      "symfony 2",
-      "php",
-      "mongodb",
-      "javascript"
+      "HTML5",
+      "CSS3",
+      "MySQL",
+      "Symfony 2",
+      "PHP",
+      "MongoDB",
+      "Javascript"
     ],
     "duration": 9,
     "imgs": {
@@ -633,13 +635,13 @@
     ],
     "team": 4,
     "technologies": [
-      "html5",
-      "css3",
-      "mysql",
-      "symfony 2",
-      "php",
-      "mongodb",
-      "javascript"
+      "HTML5",
+      "CSS3",
+      "MySQL",
+      "Symfony 2",
+      "PHP",
+      "MongoDB",
+      "Javascript"
     ],
     "duration": 3,
     "imgs": {
@@ -661,13 +663,13 @@
     ],
     "team": 2,
     "technologies": [
-      "html5",
-      "css3",
-      "mysql",
-      "symfony 2",
+      "HTML5",
+      "CSS3",
+      "MySQL",
+      "Symfony 2",
       "php",
-      "mongodb",
-      "javascript"
+      "MongoDB",
+      "Javascript"
     ],
     "duration": 13,
     "imgs": {

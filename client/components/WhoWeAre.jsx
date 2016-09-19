@@ -10,7 +10,7 @@ class WhoWeAre extends React.Component {
                 <div className='who-we-are__video'></div>
                 <div className='who-we-are__body'>
                     <div className='slogan slogan--who-we-are'>We can help you promote your business</div>
-                    <h2 className='section__header section__header--who-we-are'>Who we are?</h2>
+                    <h2 id="who-we-are"  className='section__header section__header--who-we-are'>Who we are?</h2>
                     <div className='who-we-are__description'>
                         <p>
                             We are a team of web professionals working together to create, launch and maintain your online presence succesfully. We specialize in custom web site development and design as well as setup and customization of popular Open Source solutions.

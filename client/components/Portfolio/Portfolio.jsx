@@ -63,7 +63,7 @@ class Portfolio extends React.Component {
             <section className='section portfolio'>
                 <div className='portfolio__body'>
                     <a className="action-btn action-btn--portfolio-send" href="#">Send the Project</a>
-                    <h2 className='section__header section__header--portfolio'>Our works</h2>
+                    <h2 id="portfolio"  className='section__header section__header--portfolio'>Our works</h2>
                     <div className="platforms platforms--portfolio">
                         {
                             this.props.filterItems.map((item, index) => {
