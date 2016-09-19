@@ -1,5 +1,5 @@
 .who-we-are {
-    // position: relative;
+    position: relative;
     width: 100%;
     overflow: hidden;
 
@@ -17,6 +17,17 @@
     &__body {
         padding-top: 19em;
         overflow: hidden;
+
+        @media only screen and (max-width: 700px) {
+          & {
+            padding-top: 16em;
+          }
+        }
+        @media only screen and (max-width: 600px) {
+          & {
+            padding-top: 13em;
+          }
+        }
     }
 
     &__description {
@@ -32,10 +43,21 @@
             margin: 2em auto;
 
             &:first-child {
-                width: 62%;
                 max-width: 895px;
                 margin: 0 auto;
+
+                @media only screen and (min-width: 1001px) {
+                  & {
+                    width: 62%;
+                  }
+                }
             }
+        }
+
+        @media only screen and (max-width: 500px) {
+          & {
+            margin-top: 2.5em;
+          }
         }
     }
 
@@ -45,6 +67,23 @@
         top: 27em;
         left: -2.5%;
         width: 105%;
-        min-width: 700px;
+
+        @media only screen and (max-width: 1140px) {
+          & {
+            top: 30em;
+          }
+        }
+        @media only screen and (max-width: 800px) {
+          & {
+            width: 1200px;
+            left: 50%;
+            margin-left: -600px;
+          }
+        }
+        @media only screen and (max-width: 800px) {
+          & {
+            top: 25em;
+          }
+        }
     }
 }
