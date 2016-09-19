@@ -69,6 +69,75 @@ a {
     }
 }
 
+/*** nav-icon ***/
+.nav-icon {
+
+  &-mobile {
+    display: none;
+    position: absolute !important;
+    z-index: 32;
+    top: 3.5em;
+    right: 8%;
+    width: 35px;
+    height: 26px;
+    position: relative;
+    cursor: pointer;
+    transform: rotate(0deg);
+
+    span {
+      position: absolute;
+      left: 0;
+      display: block;
+      width: 100%;
+      height: 2px;
+      opacity: 1;
+      transform: rotate(0deg);
+      background: white;
+      transition: .3s all;
+
+      &:nth-child(1) {
+        top: 0;
+      }
+      &:nth-child(2),
+      &:nth-child(3) {
+        top: 12px;
+      }
+      &:nth-child(4) {
+        top: 24px;
+      }
+    }
+
+    &--open {
+      span {
+        background: black;
+
+        &:nth-child(1) {
+          width: 0;
+          top: 12px;
+          left: 50%;
+        }
+        &:nth-child(2) {
+          transform: rotate(45deg);
+        }
+        &:nth-child(3) {
+          transform: rotate(-45deg);
+        }
+        &:nth-child(4) {
+          width: 0;
+          top: 12px;
+          left: 50%;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    & {
+      display: block;
+    }
+  }
+}
+
 /*** technologies ***/
 .technologies {
   width: 100%;

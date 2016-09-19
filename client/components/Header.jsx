@@ -5,7 +5,16 @@ import './Header.less';
 
 class Header extends React.Component {
     static defaultProps = {
-        navigation: ["who-we-are", "technologies", "portfolio", "contacts", "email"]
+        navigation: ["who-we-are", "technologies", "portfolio", "contacts", "email"],
+        navIconInnerElem: 4
+    }
+
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            isMobNavActive: false
+        }
     }
 
     handlerNavigation = (item) => {
@@ -21,13 +30,36 @@ class Header extends React.Component {
                 });
             }, 300)
         }
+
+        if(this.state.isMobNavActive) {
+            this.setState({
+                isMobNavActive: false
+            });
+        }
+    }
+
+    handlerNavIconMobile = () => {
+        this.setState({
+            isMobNavActive: !this.state.isMobNavActive
+        });
     }
 
     render() {
+        const navIconSpans = [];
+        for (let i = 0; i < this.props.navIconInnerElem; i++) {
+            navIconSpans.push(<span key={i}></span>);
+        }
+
         return(
             <section className='section header'>
-            {/* <a href="/" className='logo logo--header'>Brainspark</a> */}
-                <nav className='navigation navigation--header'>
+                <a href="/" className='logo logo--header logo--header-mobile'>Brainspark</a>
+                <div
+                    className={`nav-icon nav-icon-mobile ${(this.state.isMobNavActive) ? 'nav-icon-mobile--open':''}`}
+                    onClick={this.handlerNavIconMobile}
+                >
+                    {navIconSpans}
+                </div>
+                <nav className={`navigation navigation--header ${(this.state.isMobNavActive) ? 'navigation--open':''}`}>
                     {
                         this.props.navigation.map((item, index) => {
                             const itemName = item.replace(/-/g, ' ');
@@ -60,8 +92,6 @@ class Header extends React.Component {
                                     )
                                 }
                             }
-
-                            console.log(elementsArray);
 
                             return elementsArray;
                         })
