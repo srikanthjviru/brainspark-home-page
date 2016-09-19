@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link, scroller} from 'react-scroll';
+import {browserHistory} from 'react-router';
 import './Header.less';
 
 class Header extends React.Component {
