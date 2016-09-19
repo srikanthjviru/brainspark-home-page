@@ -29,7 +29,7 @@ class Footer extends React.Component {
 
     render() {
         return(
-            <footer className='section footer'>
+            <footer id="contacts" className='section footer'>
                 <div className='section__header section__header--footer'>
                     Contact us
                 </div>

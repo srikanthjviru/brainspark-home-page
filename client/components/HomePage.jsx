@@ -4,7 +4,8 @@ import WhoWeAre from './WhoWeAre.jsx';
 import WhatWeDo from './WhatWeDo.jsx';
 import Portfolio from './Portfolio/Portfolio.jsx';
 
-class ProjectPage extends React.Component {
+class HomePage extends React.Component {
+
     render() {
         return(
             <div>
@@ -16,4 +17,4 @@ class ProjectPage extends React.Component {
     }
 }
 
-export default ProjectPage;
+export default HomePage;
