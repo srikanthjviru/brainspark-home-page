@@ -8,9 +8,12 @@
 
 body {
     color: black;
+    max-width: 1920px;
+    min-width: 320px;
     font-size: 100%;
     font-family: 'Roboto', sans-serif;
     background: white;
+    margin: 0 auto;
 }
 
 a {
@@ -40,6 +43,18 @@ a {
         text-align: center;
         padding: 0 1%;
 
+        @media only screen and (max-width: 1140px) {
+          & {
+            padding: 0 10%;
+          }
+        }
+
+        @media only screen and (max-width: 850px) {
+          & {
+            padding: 0 1%;
+          }
+        }
+
         @media only screen and (max-width: 700px) {
           & {
             font-size: 3.5em;
@@ -47,7 +62,7 @@ a {
         }
         @media only screen and (max-width: 600px) {
           & {
-            padding: 0 5%;
+            padding: 0 10%;
           }
         }
         @media only screen and (max-width: 600px) {
@@ -58,6 +73,7 @@ a {
         @media only screen and (max-width: 400px) {
           & {
             font-size: 2.5em;
+            padding: 0;
           }
         }
     }
@@ -65,7 +81,6 @@ a {
 
 /*** sections ***/
 .section {
-  padding: 1px; //fix of gap
 
     &__header {
         font-size: 4em;
@@ -215,6 +230,65 @@ a {
 
     .technologies__item {
       margin-bottom: 4em;
+    }
+
+    @media only screen and (max-width: 900px) {
+      & {
+        text-align: center;
+
+        .technologies__item {
+          width: 25%;
+
+          &-name {
+            max-width: 150px;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+    @media only screen and (max-width: 700px) {
+      & {
+
+        .technologies__item {
+          width: 33.33333%;
+
+          &-icon {
+            img {
+              width: 73%;
+              height: auto;
+            }
+          }
+        }
+      }
+    }
+    @media only screen and (max-width: 500px) {
+      & {
+
+        .technologies__item {
+          width: 50%;
+
+          &-icon {
+            img {
+              width: auto;
+              height: 200%;
+            }
+          }
+        }
+      }
+    }
+    @media only screen and (max-width: 400px) {
+      & {
+
+        .technologies__item {
+
+          &-icon {
+            img {
+              width: auto;
+              height: 160%;
+            }
+          }
+        }
+      }
     }
   }
 
