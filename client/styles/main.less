@@ -416,7 +416,6 @@ a {
       line-height: 1.3em;
       margin: 0 0 0 -100px;
 
-
       @media only screen and (max-width: 500px) {
         & {
           bottom: 90px;
@@ -634,13 +633,31 @@ a {
   &--footer {
     float: left;
     font-size: 1.5em;
-    margin-left: 6%;
+    margin-left: 5.5%;
 
     li {
       margin-top: .95em;
 
       &:first-child {
         margin: 0;
+      }
+
+      a {
+        text-transform: capitalize;
+      }
+    }
+
+    @media only screen and (max-width: 600px) {
+      & {
+        float: none;
+        width: 60%;
+        text-align: center;
+        margin: 1.5em auto 0 auto;
+
+        li {
+          display: inline-block;
+          margin: .15em 4% !important;
+        }
       }
     }
   }
@@ -678,6 +695,7 @@ a {
   &--footer {
     float: left;
     font-size: 1.5em;
+    margin-bottom: 1.5em;
 
     .contacts__location,
     .contacts__connection {
@@ -709,6 +727,27 @@ a {
         background-position: -55px 0;
       }
     }
+
+    @media only screen and (max-width: 600px) {
+      & {
+        float: none;
+        text-align: center;
+        margin: 0 auto;
+
+        .contacts__connection {
+            margin-top: .8em;
+
+            &:before {
+              display: none;
+            }
+        }
+
+        .contacts__location,
+        .contacts__connection {
+          min-width: 300px;
+        }
+      }
+    }
   }
 }
 
@@ -723,6 +762,7 @@ a {
     float: right;
     width: 50%;
     min-width: 300px;
+    margin-left: 1.5em;
 
     .contact-form__input {
       position: relative;
@@ -808,6 +848,15 @@ a {
 
       &:hover {
         background: #D8D8D8;
+      }
+    }
+
+
+    @media only screen and (max-width: 850px) {
+      & {
+        float: none;
+        width: 80%;
+        margin: 0 auto 4em auto;
       }
     }
   }
