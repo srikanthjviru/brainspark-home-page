@@ -73,6 +73,27 @@
     bottom: -220px;
     margin: 0 0 0 -230px;
     background: url('../../img/hexagon-more-see-btn.png') no-repeat;
+    background-size: 100%;
+
+
+    @media only screen and (min-width: 1600px) {
+      & {
+        width: 520px;
+        margin: 0 0 0 -260px;
+      }
+    }
+    @media only screen and (min-width: 1800px) {
+      & {
+        width: 580px;
+        margin: 0px 0 0 -290px;
+      }
+    }
+    @media only screen and (max-width: 600px) {
+      & {
+        width: 100%;
+        margin-left: -50%;
+      }
+    }
   }
 
   &__see-more-btn {
@@ -80,6 +101,12 @@
 
     &--show {
       display: block;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    & {
+      min-height: 100%;
     }
   }
 }
