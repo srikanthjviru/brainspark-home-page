@@ -351,6 +351,21 @@ a {
         margin: 2em 0% 0 0;
       }
     }
+
+    @media only screen and (max-width: 1370px) {
+      & {
+          top: 140%;
+          width: 100%;
+          text-align: center;
+
+        .technologies__item {
+          float: none;
+          width: 120px;
+          display: inline-block;
+          margin: 1.5em 4% !important;
+        }
+      }
+    }
   }
 }
 
@@ -943,9 +958,21 @@ a {
   }
 
   &--project {
-    position: absolute;
+    position: relative;
     width: 100%;
-    top: -16em;
+    top: -17em;
     text-align: center;
+
+    .platforms__item {
+      &:hover {
+        pointer-events:none;
+      }
+    }
+
+    @media only screen and (max-width: 1200px) {
+      & {
+        top: -16em;
+      }
+    }
   }
 }
