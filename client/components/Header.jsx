@@ -27,6 +27,7 @@ class Header extends React.Component {
                 scroller.scrollTo(item, {
                   duration: 1000,
                   smooth: true,
+                  offset: -50
                 });
             }, 300)
         }
@@ -78,7 +79,9 @@ class Header extends React.Component {
                                                  href="#"
                                                  className={`navigation__${item}`}
                                                  to={item}
-                                                 smooth={true} duration={500}
+                                                 smooth={true}
+                                                 duration={500}
+                                                 offset={-50}
                                                  onClick={this.handlerNavigation.bind(null, item)}
                                             >
                                                 {itemName}

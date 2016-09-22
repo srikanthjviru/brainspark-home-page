@@ -2,10 +2,10 @@
 
   &__head {
     position: relative;
-    height: 52.5em;
     color: #fff;
     text-align: center;
     overflow: hidden;
+    margin-bottom: 10%;
 
     &-image {
       position: absolute;
@@ -23,7 +23,20 @@
       width: 70%;
       font-size: 1.5em;
       line-height: 1.4em;
-      margin: 2.5em auto 0 auto;
+      padding-bottom: 12em;
+      margin: 4% auto 0 auto;
+
+
+      @media only screen and (min-width: 1850px) {
+        & {
+          width: 65%;
+        }
+      }
+      @media only screen and (max-width: 800px) {
+        & {
+          padding-bottom: 15em;
+        }
+      }
     }
 
     &:before {
@@ -37,18 +50,25 @@
       background: url('../img/project-page-head-bottom.png') no-repeat center;
       background-size: 100% 100%;
     }
+
   }
   &__title {
     font-size: 4em;
     font-weight: 300;
     margin-top: 2.8em;
+
+    @media only screen and (max-width: 800px) {
+      & {
+        font-size: 3em;
+        margin-top: 4em;
+      }
+    }
   }
   &__about {
     position: relative;
-    height: 55em;
     background: url('../img/project-about-bg.png') repeat-y;
     background-size: 100%;
-    margin: 1em 0 50em 0;
+    margin: 8% 0 56em 0;
 
     &::before,
     &::after {
@@ -74,21 +94,34 @@
     }
 
     &-head {
-      position: absolute;
-      top: -4.4em;
+      position: relative;
+      top: -4em;
       width: 100%;
       color: #000;
       font-size: 4em;
       font-weight: 300;
       text-align: center;
+
+      @media only screen and (max-width: 800px) {
+        & {
+          top: -5.5em;
+          font-size: 3em;
+        }
+      }
     }
     &-description {
-      position: absolute;
-      top: -5.4em;
+      position: relative;
+      top: -9.4em;
       font-size: 1.5em;
       line-height: 1.5em;
       text-align: center;
       padding: 0 15%;
+
+      @media only screen and (max-width: 1200px) {
+        & {
+          padding: 0 8%;
+        }
+      }
     }
     &-hexagon-main {
       position: relative;
@@ -103,6 +136,31 @@
         height: 110%;
         x: -20%;
         y: -5%;
+      }
+
+      @media only screen and (max-width: 1520px) {
+        & {
+          width: 60%;
+        }
+      }
+      @media only screen and (max-width: 1200px) {
+        & {
+          width: 72%;
+        }
+      }
+    }
+    &-preview {
+      margin-top: -10%;
+
+      @media only screen and (max-width: 1440px) {
+        & {
+          margin-top: -13%;
+        }
+      }
+      @media only screen and (max-width: 1000px) {
+        & {
+          margin-top: -19%;
+        }
       }
     }
     &-preview-all {
@@ -127,6 +185,24 @@
           height: 110%;
           x: -20%;
           y: -5%;
+        }
+      }
+
+      @media only screen and (max-width: 1520px) {
+        & {
+          width: 78%;
+        }
+      }
+      @media only screen and (max-width: 1200px) {
+        & {
+          width: 82%;
+          margin: -12.5% auto 0 auto;
+        }
+      }
+      @media only screen and (max-width: 1100px) {
+        & {
+          width: 90%;
+          margin: -10.5% auto 0 auto;
         }
       }
     }
@@ -184,6 +260,263 @@
             content: 'Team size';
           }
         }
+      }
+    }
+
+    @media only screen and (max-width: 1000px) {
+      & {
+        &:after {
+          top: 90%;
+        }
+        .project__about-description {
+          top: -10.4em;
+        }
+      }
+    }
+    @media only screen and (max-width: 800px) {
+      & {
+        &:after {
+          top: 82%;
+        }
+        .project__about-preview {
+            margin-top: -28%;
+        }
+      }
+    }
+    @media only screen and (max-width: 650px) {
+      & {
+        &:after {
+          top: 75%;
+        }
+        .project__about-preview {
+            margin-top: -33%;
+        }
+      }
+    }
+    @media only screen and (max-width: 500px) {
+      & {
+        &:after {
+          top: 68%;
+        }
+        .project__about-preview {
+            margin-top: -44%;
+        }
+      }
+    }
+    @media only screen and (max-width: 400px) {
+      & {
+        &:after {
+          top: 64%;
+        }
+        .project__about-preview {
+            margin-top: -60%;
+        }
+      }
+    }
+  }
+
+
+  @media only screen and (max-width: 1370px) {
+    & {
+      .project__head:before ,
+      .project__about:before,
+      .project__about:after {
+        background-size: 120% 100%;
+      }
+      .project__about {
+        background-size: 120%;
+      }
+      .project__about-additional  {
+        top: 135%;
+        width: 100%;
+        height: auto;
+        background: none;
+
+        .project__about-add-props {
+          text-align: center;
+          margin: 0;
+
+          li {
+            float: none;
+            display: inline-block;
+            margin: 0 4%;
+          }
+        }
+      }
+    }
+
+    .project__about {
+      margin: 14% 0 80em 0;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    & {
+      .project__head:before ,
+      .project__about:before ,
+      .project__about:after  {
+        background-size: 130% 100%;
+      }
+      .project__about {
+        background-size: 130%;
+      }
+    }
+  }
+  @media only screen and (max-width: 1100px) {
+    & {
+      .project__head:before ,
+      .project__about:before,
+      .project__about:after  {
+        background-size: 140% 100%;
+      }
+      .project__about {
+        background-size: 140%;
+      }
+    }
+  }
+  @media only screen and (max-width: 1060px) {
+    & {
+      .project__head {
+
+          &-image {
+            left: 50%;
+            margin-left: -80%;
+
+            img {
+              max-width: none;
+              width: auto;
+              height: 100%;
+            }
+          }
+      }
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    & {
+      .project__head:before ,
+      .project__about:before,
+      .project__about:after   {
+        background-size: 160% 100%;
+      }
+      .project__about {
+        background-size: 160%;
+      }
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    & {
+      .project__head:before ,
+      .project__about:before,
+      .project__about:after  {
+        background-size: 180% 100%;
+      }
+      .project__about {
+        background-size: 180%;
+        margin: 18% 0 71em 0;
+      }
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    & {
+      .project__about-additional  {
+        top: 130%;
+      }
+    }
+  }
+  @media only screen and (max-width: 750px) {
+    & {
+      .project__head:before ,
+      .project__about:before,
+      .project__about:after   {
+        background-size: 210% 100%;
+      }
+      .project__about {
+        background-size: 210%;
+      }
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    & {
+      .project__head:before ,
+      .project__about:before  {
+        background-size: 260% 100%;
+      }
+      .project__about {
+        background-size: 260%;
+      }
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    & {
+      .project__head:before ,
+      .project__about:before,
+      .project__about:after   {
+        background-size: 300% 100%;
+      }
+      .project__about {
+        background-size: 300%;
+      }
+
+      .project__head-image {
+        left: 50%;
+        width: auto;
+        height: 100%;
+        margin-left: -150%;
+      }
+    }
+  }
+  @media only screen and (max-width: 475px) {
+    & {
+      .project__about {
+        background-size: 330%;
+        margin: 18% 0 78em 0;
+      }
+    }
+  }
+  @media only screen and (max-width: 460px) {
+    & {
+      .project__head:before ,
+      .project__about:before,
+      .project__about:after   {
+        background-size: 330% 100%;
+      }
+      .project__about {
+        background-size: 330%;
+      }
+    }
+  }
+  @media only screen and (max-width: 420px) {
+    & {
+      .project__head:before ,
+      .project__about:before,
+      .project__about:after   {
+        background-size: 350% 100%;
+      }
+      .project__about {
+        background-size: 350%;
+      }
+    }
+  }
+  @media only screen and (max-width: 360px) {
+    & {
+      .project__head:before ,
+      .project__about:before,
+      .project__about:after   {
+        background-size: 380% 100%;
+      }
+      .project__about {
+        background-size: 380%;
+      }
+    }
+  }
+  @media only screen and (max-width: 340px) {
+    & {
+      .project__head:before ,
+      .project__about:before,
+      .project__about:after   {
+        background-size: 400% 100%;
+      }
+      .project__about {
+        background-size: 400%;
       }
     }
   }

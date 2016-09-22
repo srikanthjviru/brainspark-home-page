@@ -1,7 +1,28 @@
 import React from 'react';
+import {Link, scroller} from 'react-scroll';
+import {browserHistory} from 'react-router';
 import './Footer.less';
 
 class Footer extends React.Component {
+    static defaultProps = {
+        navigation: ["who-we-are", "technologies", "portfolio"]
+    }
+
+    handlerNavigation = (item) => {
+        if(window.location.pathname !== '/home'
+            && (item === 'who-we-are' || item === 'technologies' || item === 'portfolio')) {
+
+            browserHistory.push(`/home`);
+
+            setTimeout(() => {
+                scroller.scrollTo(item, {
+                  duration: 1000,
+                  smooth: true,
+                  offset: -50
+                });
+            }, 300)
+        }
+    }
 
     handlerFormFocus = (e) => {
         this.removeFocusedClassInForm(e);
@@ -66,10 +87,31 @@ class Footer extends React.Component {
                         </li>
                     </ul>
                     <ul className="navigation navigation--footer">
-                        <li><a href="#">Who we are</a></li>
-                        <li><a href="#">Technologies</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Contacts</a></li>
+                        {
+                            this.props.navigation.map((item, index) => {
+                                const itemName = item.replace(/-/g, ' ');
+
+                                if(itemName === 'email') {
+                                    return  <li key={itemName}>
+                                                <a className={`navigation__${item}`} href="/">{itemName}</a>
+                                            </li>
+                                }
+
+                                return <li key={index}>
+                                            <Link
+                                                 href="#"
+                                                 className={`navigation__${item}`}
+                                                 to={item}
+                                                 smooth={true}
+                                                 duration={500}
+                                                 offset={-50}
+                                                 onClick={this.handlerNavigation.bind(null, item)}
+                                            >
+                                                {itemName}
+                                            </Link>
+                                       </li>;
+                            })
+                        }
                     </ul>
                 </div>
             </footer>
