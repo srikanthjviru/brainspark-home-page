@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const config = require('../etc/config.json');
@@ -29,7 +30,7 @@ app.get('/projects/:projectID', (req, res) => {
     res.json(project);
 });
 
-
+app.use(express.static(path.join(__dirname, 'public')));
 
 
 const server = app.listen(config.server.port, () => {
