@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link, scroller} from 'react-scroll';
-import {browserHistory} from 'react-router';
+import {hashHistory} from 'react-router';
 import './Header.less';
 
 class Header extends React.Component {
@@ -21,7 +21,7 @@ class Header extends React.Component {
         if(window.location.pathname !== '/home'
             && (item === 'who-we-are' || item === 'technologies' || item === 'portfolio')) {
 
-            browserHistory.push(`/home`);
+            hashHistory.push(`#/home`);
 
             setTimeout(() => {
                 scroller.scrollTo(item, {
@@ -76,7 +76,6 @@ class Header extends React.Component {
                                 elementsArray.push(
                                     <li key={index}>
                                             <Link
-                                                 href="#"
                                                  className={`navigation__${item}`}
                                                  to={item}
                                                  smooth={true}

@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link, scroller} from 'react-scroll';
-import {browserHistory} from 'react-router';
+import {hashHistory} from 'react-router';
 import './Footer.less';
 
 class Footer extends React.Component {
@@ -12,7 +12,7 @@ class Footer extends React.Component {
         if(window.location.pathname !== '/home'
             && (item === 'who-we-are' || item === 'technologies' || item === 'portfolio')) {
 
-            browserHistory.push(`/home`);
+            hashHistory.push(`#/home`);
 
             setTimeout(() => {
                 scroller.scrollTo(item, {
