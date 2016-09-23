@@ -3,8 +3,8 @@ const path = require('path');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 
-const NODE_ENV = 'production';
-const serverConfig = require('../etc/config.json')[NODE_ENV].server;
+const config = require('../etc/config.json');
+const serverConfig = config[config.environment].server
 
 const technologiesData = require('./data/technologies.json');
 const projectsData = require('./data/projects.json');

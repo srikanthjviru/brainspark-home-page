@@ -1,7 +1,6 @@
 import axios from 'axios';
 import config from '../../etc/config.json';
-const NODE_ENV = process.env.NODE_ENV || 'development';
-const server = config[NODE_ENV].server;
+const server = config[config.environment].server;
 
 export default {
     getTechnologies(callback) {
