@@ -2,7 +2,9 @@ const express = require('express');
 const path = require('path');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-const config = require('../etc/config.json');
+
+const NODE_ENV = 'production';
+const serverConfig = require('../etc/config.json')[NODE_ENV].server;
 
 const technologiesData = require('./data/technologies.json');
 const projectsData = require('./data/projects.json');
@@ -34,6 +36,6 @@ app.get('/projects/:projectID', (req, res) => {
 });
 
 
-const server = app.listen(config.server.port, () => {
-    console.log(`Server is up and running on port ${config.server.port}`);
+const server = app.listen(serverConfig.port, () => {
+    console.log(`Server is up and running on port ${serverConfig.port}`);
 });
