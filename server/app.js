@@ -16,6 +16,9 @@ app.use( bodyParser.json() );
 // Allow requests from any origin
 app.use(cors({ origin: '*' }));
 
+// Using static files
+app.use(express.static(path.join(__dirname, '../public')));
+
 // RESTful api handlers
 app.get('/technologies', (req, res) => {
     res.json(technologiesData);
@@ -29,8 +32,6 @@ app.get('/projects/:projectID', (req, res) => {
 
     res.json(project);
 });
-
-app.use(express.static(path.join(__dirname, 'public')));
 
 
 const server = app.listen(config.server.port, () => {
