@@ -1,5 +1,5 @@
 {
-    "environment": "production",
+    "environment": "development",
     "development": {
       "server": {
         "host": "http://localhost",
