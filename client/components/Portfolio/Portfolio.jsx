@@ -73,11 +73,12 @@ class Portfolio extends React.Component {
                                 }
 
                                 return <div
-                                    key={index}
-                                    className={`platforms__item platforms__item--${item} ${activeClassName}`}
-                                    data-item={item}
-                                    onClick={this.handlerFilter}
-                                />
+                                            key={index}
+                                            className={`platforms__item platforms__item--${item} ${activeClassName}`}
+                                            data-item={item}
+                                            onClick={this.handlerFilter}
+                                            title={item}
+                                        />
                             })
                         }
                     </div>
