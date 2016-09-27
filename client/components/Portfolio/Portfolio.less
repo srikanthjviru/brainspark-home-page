@@ -1,6 +1,5 @@
 .portfolio {
   position: relative;
-  min-height: 100em;
 
   &:before {
     content: '';
@@ -64,49 +63,31 @@
     }
   }
 
-  &__more-hexagon {
-    width: 460px;
-    height: 516px;
-    position: absolute;
-    z-index: 30;
-    left: 50%;
-    bottom: -220px;
-    margin: 0 0 0 -230px;
-    background: url('../../img/hexagon-more-see-btn.png') no-repeat;
-    background-size: 100%;
-
-
-    @media only screen and (min-width: 1600px) {
-      & {
-        width: 520px;
-        margin: 0 0 0 -260px;
-      }
-    }
-    @media only screen and (min-width: 1800px) {
-      & {
-        width: 580px;
-        margin: 0px 0 0 -290px;
-      }
-    }
-    @media only screen and (max-width: 600px) {
-      & {
-        width: 100%;
-        margin-left: -50%;
-      }
-    }
-  }
-
   &__see-more-btn {
-    display: none;
+    position: relative;
+    visibility: hidden;
 
     &--show {
-      display: block;
+      visibility: visible;
+    }
+
+    @media only screen and (max-width: 600px) {
+      & {
+        padding: 2em 0 1em 0;
+      }
     }
   }
 
-  @media only screen and (max-width: 600px) {
-    & {
-      min-height: 100%;
+  &__more-hexagon {
+    position: relative;
+    z-index: 30;
+    width: 32.5%;
+    margin: 0 auto -15% auto;
+
+    @media only screen and (max-width: 600px) {
+      & {
+        visibility: hidden;
+      }
     }
   }
 }
