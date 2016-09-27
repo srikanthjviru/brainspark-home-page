@@ -384,20 +384,13 @@ a {
       &:hover {
         text-decoration: underline;
       }
-    }
-    &-send {
-      display: inline-block;
-      position: relative;
-      z-index: 30;
-      color: #fff;
-      margin: 13% 0 14% 0;
 
       @media only screen and (min-width: 1800px) {
         & {
           font-size: 3.5em;
         }
       }
-      @media only screen and (max-width: 1095px) {
+      @media only screen and (max-width: 1150px) {
         & {
           font-size: 2.2em;
         }
@@ -415,6 +408,19 @@ a {
       @media only screen and (max-width: 600px) {
         & {
           text-decoration: underline;
+        }
+      }
+    }
+    &-send {
+      display: inline-block;
+      position: relative;
+      z-index: 30;
+      color: #fff;
+      margin: 13% 0 14% 0;
+
+      @media only screen and (max-width: 600px) {
+        & {
+          text-decoration: underline;
           margin: -10% 0 35% 0;
         }
       }
@@ -422,23 +428,21 @@ a {
     &-more {
       position: absolute;
       z-index: 40;
+      top: 45%;
       left: 50%;
-      bottom: 57px;
       display: block;
-      width: 200px;
-      color: #000;
-      text-align: center;
-      line-height: 1.3em;
-      margin: 0 0 0 -100px;
+      cursor: pointer;
+      width: 150px;
+      margin: 0 0 0 -75px;
 
-      @media only screen and (max-width: 500px) {
+      @media only screen and (max-width: 600px) {
         & {
-          bottom: 90px;
-        }
-      }
-      @media only screen and (max-width: 380px) {
-        & {
-          font-size: 2.4em;
+          width: 100%;
+          top: 0;
+          left: 0;
+          text-align: center;
+          padding: 1em 0 0 0;
+          margin: 0;
         }
       }
     }
@@ -450,13 +454,12 @@ a {
 
   &--portfolio {
     position: relative;
-    z-index: 30;
+    z-index: 40;
     margin-top: 1.2em;
     transition: .5s all;
 
     .gallery__hexagon {
       position: relative;
-      z-index: 30;
       width: 32.5%;
       margin-left: 1.24%;
 
@@ -492,10 +495,6 @@ a {
         .gallery__hexagon {
           width: 49.1%;
         }
-      }
-
-      &:last-child {
-        margin-bottom: 19em;
       }
     }
   }

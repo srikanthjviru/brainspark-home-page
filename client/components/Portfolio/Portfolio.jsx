@@ -1,4 +1,6 @@
 import React from 'react';
+import Hexagon from 'react-hexagon';
+import moreHexagonImage from '../../img/hexagon-more-see-btn.png';
 import PortfolioGallery from './PortfolioGallery.jsx';
 import api from '../../api';
 
@@ -87,14 +89,18 @@ class Portfolio extends React.Component {
                         viewProjects={this.state.viewProjects}
                     />
                     <div className={`portfolio__see-more-btn ${(this.state.isShowMoreProjectsBtn) ? 'portfolio__see-more-btn--show' : ''}`}>
-                        <div className="portfolio__more-hexagon"></div>
-                        <a
-                            className="action-btn action-btn--portfolio-more"
-                            href="#"
-                            onClick={this.handlerMoreProjectsBtn}
-                        >
-                            See more projects
-                        </a>
+                        <Hexagon
+                            className='portfolio__more-hexagon'
+                            style={{stroke: 'transparent', strokeWidth: 0}}
+                            backgroundImage={moreHexagonImage}
+                         >
+                             <span
+                                 className="action-btn action-btn--portfolio-more"
+                                 onClick={this.handlerMoreProjectsBtn}
+                             >
+                                 See more projects
+                             </span>
+                         </Hexagon>
                     </div>
                 </div>
             </section>
