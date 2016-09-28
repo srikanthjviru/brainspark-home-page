@@ -793,11 +793,99 @@ a {
   }
 }
 
-/*** contact-form ***/
-.contact-form {
+/*** form ***/
+.form {
   input,
   textarea {
     box-sizing: border-box;
+  }
+
+  &__input {
+    position: relative;
+    height: 53px;
+    margin-bottom: .625em;
+
+    &::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    label {
+      position: absolute;
+      top: 14px;
+      left: 10px;
+      color: #504E4E;
+      font-size: 1.125em;
+      font-weight: 300;
+      transition: .3s;
+      will-change: top, color, font;
+    }
+
+    input,
+    textarea,
+    select {
+      width: 100%;
+      font-size: 1.125em;
+      background: #ECEBEB;
+    }
+    input {
+      height: 100%;
+      padding: 10px 10px 0 10px;
+
+      &:-webkit-autofill {
+          -webkit-box-shadow: 0 0 0px 1000px #ECEBEB inset;
+      }
+    }
+    textarea {
+      resize: none;
+      height: 185px;
+      padding: 10px;
+    }
+
+    &--name,
+    &--email, {
+      display: inline-block;
+      width: 49%;
+    }
+    &--email {
+      margin-left: 2%;
+    }
+    &--message {
+      height: auto;
+      padding-top: 12px;
+      background: #ECEBEB;
+    }
+    &--focused {
+      label {
+        color: #9B9B9B;
+        top: 5px;
+        font-size: 75%;
+      }
+    }
+
+    &--disabled {
+      input {
+        background: #D8D8D8;
+      }
+    }
+  }
+
+  &__submit-btn {
+    color: #F5A623;
+    display: block;
+    width: 200px;
+    height: 45px;
+    font-size: 1.5em;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    background: #fff;
+    margin: 0 auto;
+
+    &:hover {
+      background: #D8D8D8;
+    }
   }
 
   &--footer {
@@ -806,118 +894,6 @@ a {
     min-width: 300px;
     margin-left: 1.5em;
 
-    .contact-form__input {
-      position: relative;
-      height: 53px;
-      margin-bottom: .625em;
-
-      &::after {
-        content: "";
-        display: table;
-        clear: both;
-      }
-
-      label {
-        position: absolute;
-        top: 14px;
-        left: 10px;
-        color: #504E4E;
-        font-size: 1.125em;
-        font-weight: 300;
-        transition: .3s;
-        will-change: top, color, font;
-      }
-
-      input,
-      textarea,
-      select {
-        width: 100%;
-        font-size: 1.125em;
-        background: #ECEBEB;
-      }
-      input {
-        height: 100%;
-        padding: 10px 10px 0 10px;
-
-        &:-webkit-autofill {
-            -webkit-box-shadow: 0 0 0px 1000px #ECEBEB inset;
-        }
-      }
-      textarea {
-        resize: none;
-        height: 185px;
-        padding: 10px;
-      }
-
-      &--name,
-      &--email, {
-        display: inline-block;
-        width: 49%;
-      }
-      &--email {
-        margin-left: 2%;
-      }
-      &--message {
-        height: auto;
-        padding-top: 12px;
-        background: #ECEBEB;
-      }
-      &--focused {
-        label {
-          color: #9B9B9B;
-          top: 5px;
-          font-size: 75%;
-        }
-      }
-
-      &--disabled {
-        input {
-          background: #D8D8D8;
-        }
-      }
-    }
-
-    .contact-form__submit-btn {
-      color: #F5A623;
-      display: block;
-      width: 200px;
-      height: 45px;
-      font-size: 1.5em;
-      line-height: 40px;
-      text-align: center;
-      cursor: pointer;
-      background: #fff;
-      margin: 0 auto;
-
-      &:hover {
-        background: #D8D8D8;
-      }
-    }
-
-    @media only screen and (max-width: 1200px) {
-      & {
-        .contact-form__input {
-          &--name,
-          &--email,
-          &--disabled {
-            height: 45px;
-          }
-
-          label {
-            top: 11px;
-            font-size: 1em;
-          }
-
-          &--focused {
-            label {
-              top: 4px;
-              font-size: 70%;
-            }
-          }
-        }
-      }
-    }
-
     @media only screen and (max-width: 850px) {
       & {
         float: none;
@@ -925,9 +901,30 @@ a {
         margin: 0 auto 4em auto;
       }
     }
+  }
 
+  @media only screen and (max-width: 1200px) {
+    & {
+      .form__input {
+        &--name,
+        &--email,
+        &--disabled {
+          height: 45px;
+        }
 
+        label {
+          top: 11px;
+          font-size: 1em;
+        }
 
+        &--focused {
+          label {
+            top: 4px;
+            font-size: 70%;
+          }
+        }
+      }
+    }
   }
 }
 

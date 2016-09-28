@@ -26,23 +26,23 @@ class Footer extends React.Component {
 
     handlerFormFocus = (e) => {
         this.removeFocusedClassInForm(e);
-        e.target.parentNode.classList.add('contact-form__input--focused');
+        e.target.parentNode.classList.add('form__input--focused');
     }
 
     removeFocusedClassInForm(e) {
-        const allFormsDivs = e.currentTarget.querySelectorAll('.contact-form__input');
+        const allFormsDivs = e.currentTarget.querySelectorAll('.form__input');
         allFormsDivs.forEach((element) => {
             const inputElement = element.querySelector('input');
             if(inputElement) {
                 if(!inputElement.value) {
-                    element.classList.remove('contact-form__input--focused');
+                    element.classList.remove('form__input--focused');
                 }
             }
 
             const textareaElement = element.querySelector('textarea');
             if(textareaElement) {
                 if(!textareaElement.value) {
-                    element.classList.remove('contact-form__input--focused');
+                    element.classList.remove('form__input--focused');
                 }
             }
         })
@@ -56,27 +56,27 @@ class Footer extends React.Component {
                 </div>
                 <div className='footer__body'>
                     <form
-                        className='contact-form contact-form--footer'
+                        className='form form--footer'
                         onFocus={this.handlerFormFocus}
                         onBlur={this.removeFocusedClassInForm}
                     >
-                        <div className="contact-form__input contact-form__input--name">
-                            <label htmlFor="contact-form__input-name">Name<sup>*</sup></label>
-                            <input id='contact-form__input-name' type="text" name='name'/>
+                        <div className="form__input form__input--name">
+                            <label htmlFor="form__input-name">Name<sup>*</sup></label>
+                            <input id='form__input-name' type="text" name='name'/>
                         </div>
-                        <div className="contact-form__input contact-form__input--email">
-                            <label htmlFor="contact-form__input-email">Email<sup>*</sup></label>
-                            <input id='contact-form__input-email' type="email" name='email'/>
+                        <div className="form__input form__input--email">
+                            <label htmlFor="form__input-email">Email<sup>*</sup></label>
+                            <input id='form__input-email' type="email" name='email'/>
                         </div>
-                        <div className="contact-form__input contact-form__input--disabled">
-                            <label htmlFor="contact-form__input-subject">Subject: I need a site<sup>*</sup></label>
-                            <input id='contact-form__input-subject' type="text" name='subject' disabled />
+                        <div className="form__input form__input--subject">
+                            <label htmlFor="form__input-subject">Subject<sup>*</sup></label>
+                            <input id='form__input-subject' type="text" name='subject'/>
                         </div>
-                        <div className="contact-form__input contact-form__input--message">
-                            <label htmlFor="contact-form__input-message">tell us what site you need<sup>*</sup></label>
-                            <textarea id='contact-form__input-message' name='message'></textarea>
+                        <div className="form__input form__input--message">
+                            <label htmlFor="form__input-message">tell us what site you need<sup>*</sup></label>
+                            <textarea id='form__input-message' name='message'></textarea>
                         </div>
-                        <button className='contact-form__submit-btn' type='submit'>Submit</button>
+                        <button className='form__submit-btn' type='submit'>Submit</button>
                     </form>
                     <ul className='contacts contacts--footer'>
                         <li className="contacts__location">Ukraine, Cherkassy</li>
