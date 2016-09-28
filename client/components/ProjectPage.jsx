@@ -22,19 +22,12 @@ class ProjectPage extends React.Component {
         const allTechnologies = this.state.technologies;
 
         let imgHead = null,
-            platforms = null,
             mainHexagonPreview = null,
             allHexagonPreview = null,
             projectTechnologies = null;
 
         if( Object.keys(project).length ) {
             imgHead = <img src={`/static/projects/${project.imgs.head}`} alt=""/>;
-            platforms = project.platforms.map((item, index) =>
-                <div
-                    key={index}
-                    className={`platforms__item platforms__item--${item}`}
-                />
-            );
             mainHexagonPreview =  <Hexagon
                                         className='project__about-hexagon-main'
                                         backgroundImage={`/static/projects/${project.imgs.main}`}
@@ -84,9 +77,6 @@ class ProjectPage extends React.Component {
                 </div>
                 <div className="project__about">
                     <div className="project__about-head">About project</div>
-                    <div className="platforms platforms--project">
-                        {platforms}
-                    </div>
                     <div className="project__about-description">
                         {project.description}
                     </div>
