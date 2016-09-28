@@ -422,18 +422,19 @@ a {
           font-size: 1.5em;
         }
       }
-      @media only screen and (max-width: 600px) {
-        & {
-          text-decoration: underline;
-        }
-      }
     }
-    &-send {
+    a&-send {
+      color: white;
       display: inline-block;
       position: relative;
       z-index: 30;
-      color: #fff;
+      text-decoration: underline;
       margin: 13% 0 14% 0;
+      transition: .3s all;
+
+      &:hover {
+        color: #383838;
+      }
 
       @media only screen and (max-width: 600px) {
         & {
