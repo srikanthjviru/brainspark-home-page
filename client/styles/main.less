@@ -432,8 +432,15 @@ a {
       left: 50%;
       display: block;
       cursor: pointer;
-      width: 150px;
-      margin: 0 0 0 -75px;
+      width: 300px;
+      margin: 0 0 0 -150px;
+
+      @media only screen and (max-width: 1150px) {
+        & {
+          width: 150px;
+          margin: 0 0 0 -75px;
+        }
+      }
 
       @media only screen and (max-width: 600px) {
         & {
@@ -867,6 +874,29 @@ a {
       }
     }
 
+    @media only screen and (max-width: 1200px) {
+      & {
+        .contact-form__input {
+          &--name,
+          &--email,
+          &--disabled {
+            height: 45px;
+          }
+
+          label {
+            top: 11px;
+            font-size: 1em;
+          }
+
+          &--focused {
+            label {
+              top: 4px;
+              font-size: 70%;
+            }
+          }
+        }
+      }
+    }
 
     @media only screen and (max-width: 850px) {
       & {
@@ -875,6 +905,9 @@ a {
         margin: 0 auto 4em auto;
       }
     }
+
+
+
   }
 }
 
