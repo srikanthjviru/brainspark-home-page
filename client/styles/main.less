@@ -271,7 +271,7 @@ a {
 
           &-name {
             max-width: 150px;
-            margin: 0 auto;
+            margin: .3em auto 0 auto;
           }
         }
       }
@@ -281,6 +281,10 @@ a {
 
         .technologies__item {
           width: 33.33333%;
+
+          &-name {
+            font-size: 1.2em;
+          }
         }
       }
     }
@@ -354,7 +358,7 @@ a {
 
     @media only screen and (max-width: 1370px) {
       & {
-          top: 140%;
+          top: 142%;
           width: 100%;
           text-align: center;
 
@@ -363,6 +367,19 @@ a {
           width: 120px;
           display: inline-block;
           margin: 1.5em 4% !important;
+        }
+      }
+    }
+
+    @media only screen and (max-width: 700px) {
+      & {
+
+        .technologies__item {
+          width: 100px;
+
+          &-name {
+            font-size: 1.25em;
+          }
         }
       }
     }
@@ -807,6 +824,7 @@ a {
         font-size: 1.125em;
         font-weight: 300;
         transition: .3s;
+        will-change: top, color, font;
       }
 
       input,
@@ -915,7 +933,7 @@ a {
 /*** platforms ***/
 .platforms {
   position: relative;
-  z-index: 30;
+  z-index: 50;
   margin-top: 1em;
 
   &__item {
