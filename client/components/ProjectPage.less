@@ -95,7 +95,7 @@
 
     &-head {
       position: relative;
-      top: -4em;
+      top: -3.5em;
       width: 100%;
       color: #000;
       font-size: 4em;
@@ -111,11 +111,11 @@
     }
     &-description {
       position: relative;
-      top: -9.4em;
+      top: -7em;
       font-size: 1.5em;
       line-height: 1.5em;
       text-align: center;
-      padding: 0 15%;
+      padding: 0 20%;
 
       @media only screen and (max-width: 1200px) {
         & {
@@ -150,16 +150,16 @@
       }
     }
     &-preview {
-      margin-top: -10%;
+      margin-top: -6%;
 
-      @media only screen and (max-width: 1440px) {
+      @media only screen and (max-width: 1300px) {
         & {
-          margin-top: -13%;
+          margin-top: -8%;
         }
       }
       @media only screen and (max-width: 1000px) {
         & {
-          margin-top: -19%;
+          margin-top: -15%;
         }
       }
     }
@@ -269,7 +269,7 @@
           top: 90%;
         }
         .project__about-description {
-          top: -10.4em;
+          top: -8em;
         }
       }
     }
@@ -279,7 +279,10 @@
           top: 82%;
         }
         .project__about-preview {
-            margin-top: -28%;
+            margin-top: -20%;
+        }
+        .project__about-description {
+          top: -9em;
         }
       }
     }
@@ -299,7 +302,7 @@
           top: 68%;
         }
         .project__about-preview {
-            margin-top: -44%;
+            margin-top: -33%;
         }
       }
     }
@@ -309,7 +312,14 @@
           top: 64%;
         }
         .project__about-preview {
-            margin-top: -60%;
+            margin-top: -42%;
+        }
+      }
+    }
+    @media only screen and (max-width: 400px) {
+      & {
+        .project__about-preview {
+            margin-top: -48%;
         }
       }
     }
@@ -431,6 +441,9 @@
       }
       .project__about {
         background-size: 210%;
+      }
+      .project__about-additional  {
+        top: 135%;
       }
     }
   }
