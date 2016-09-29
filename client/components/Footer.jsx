@@ -57,8 +57,8 @@ class Footer extends React.Component {
                 <div className='footer__body'>
                     <form
                         className='form form--footer'
-                        onFocus={this.handlerFormFocus}
-                        onBlur={this.removeFocusedClassInForm}
+                        onFocus={this.context.handlerFormFocus}
+                        onBlur={this.context.removeFocusedClassInForm}
                     >
                         <div className="form__input form__input--name">
                             <label htmlFor="form__input-name">Name<sup>*</sup></label>
@@ -118,5 +118,10 @@ class Footer extends React.Component {
         )
     }
 }
+
+Footer.contextTypes = {
+  handlerFormFocus: React.PropTypes.func,
+  removeFocusedClassInForm: React.PropTypes.func
+};
 
 export default Footer;
